@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "English: Keep luggage"
+date:   2019-11-08 12:59:35 +0900
+categories: jekyll update
+---
+
+Is there somewhere I can keep my luggage just for a few minutes ...?
+while I look around?
+
+somewhere <-> any place
