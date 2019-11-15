@@ -15,3 +15,6 @@ Dec 07 - Dec 08
 Nanji Camping
 
 ## Schedule
+
+## Preparation
+footwear
