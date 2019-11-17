@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "English: carry"
+date:   2019-11-17 18:52:35 +0900
+categories: jekyll update
+---
+
+Carry: 가지고 다니다, 휴대하다, 넣고 다니다, 가방속에 넣고 다닐때, 손에 들고다닐때
+
+Example:
+I usually carry my phone in my pocket
+
+Sometimes I carry it in my hand.  (hands가 아님)
+
+When I go out, I usually carry a backpack.
+Because I don't like to carry many things in my pocket.
+So, I carry everything I need in my backpack.
