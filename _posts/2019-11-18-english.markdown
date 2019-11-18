@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "English: Neither를 써서 의견을 조율할때"
+date:   2019-11-18 15:39:35 +0900
+categories: jekyll update
+---
+
+Neither: 어느것도 아니다
+You really can't go wrong either way.  (ways가 아님)
+Neither is perfect. (are 가 아님)
+= Neither one is perfect.
+but each has its merits.
+It really comes down to personal preference.
+(결론이 ~~로 정해질때)
