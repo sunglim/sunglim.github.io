@@ -1,0 +1,20 @@
+---
+layout: post
+title:  "English: ~~시 까지 가야한다"
+date:   2019-11-22 20:07:35 +0900
+categories: jekyll update
+---
+
+* I have to be somewhere by 2.
+
+or I have to get somewhere.
+
+go가 아님 A에서 B로 이동한다는 느낌이기때문에.
+
+until 2가 아니라 by 2.
+
+
+* If you're OK with it.
+> If you're OK/alright 만하면 상대방의 건강/정신/감정 상태에 대한 내용이 됨
+* If it's OK with you.
+괜찮다면
