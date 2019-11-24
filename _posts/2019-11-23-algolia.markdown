@@ -8,5 +8,14 @@ categories: jekyll update
 jekyll에 algoria기반의 검색창을 달려고한다.
 
 뭘 먼저 보야할지 모르겠다
+
 일단 예제부터 본다
 
+[cloudcannon가이드](https://learn.cloudcannon.com/jekyll/algolia/)
+
+[Getting Started](https://www.algolia.com/doc/guides/getting-started/how-algolia-works/)
+
+[Interactive tutorial](https://www.algolia.com/doc/)
+
+따라하는 가이드
+https://www.algolia.com/doc/onboarding/#/pick-dataset
