@@ -19,3 +19,36 @@ jekyll에 algoria기반의 검색창을 달려고한다.
 
 따라하는 가이드
 https://www.algolia.com/doc/onboarding/#/pick-dataset
+
+Step#1. node app
+
+package.json 을 만들고
+
+ npm install node-fetch --save
+
+하고 node app.js로 실행해준다음에. algolia UI를 보면 입력되어있는 index들을 확인할수있다
+대단하다
+```
+const algoliasearch = require('algoliasearch');
+const fetch = require('node-fetch');
+
+const client = algoliasearch('aaaa', '3154418511032fcd57ca68cd50b38085')
+
+const index = client.initIndex('demo_ecommerce')
+
+fetch('https://alg.li/doc-ecommerce.json')
+  .then(function(response) {
+          return response.json()
+            })
+  .then(function(products) {
+          index.addObjects(products)
+            })
+```
+
+InstanceSearch라는 frontend library가 있음
+
+Q. index에 item을 어떻게 추가할수있다는거지?
+Option#1. script를 만들어서 제목리스트로 추가?
+Q2. 그럼 내용검색은 어떻게하지?
+
+https://github.com/algolia/jekyll-algolia
