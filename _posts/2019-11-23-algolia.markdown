@@ -52,3 +52,5 @@ Option#1. script를 만들어서 제목리스트로 추가?
 Q2. 그럼 내용검색은 어떻게하지?
 
 https://github.com/algolia/jekyll-algolia
+
+공부 : https://community.algolia.com/jekyll-algolia/getting-started.html

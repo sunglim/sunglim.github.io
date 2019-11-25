@@ -31,6 +31,11 @@ theme: minima
 plugins:
   - jekyll-feed
 
+# Algolia settings for search box.
+algolia:
+  application_id: I2X1XFAM0D
+  index_name: jekyll_blog
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
