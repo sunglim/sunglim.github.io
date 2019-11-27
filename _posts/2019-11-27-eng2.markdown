@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "화면 UI설명 top left corner"
+date:   2019-11-27 20:35:35 +0900
+categories: jekyll update
+---
+
+왼쪽 위:  The top left corner of the screen.
+
+혹은, uppper left corner.
+
+ex> if you look at the top right corner of the screen.
+
+The bottom right corner of screen.
+
+There's a button _in_ the top left corner
