@@ -1,0 +1,2 @@
+jekyll algolia
+git push

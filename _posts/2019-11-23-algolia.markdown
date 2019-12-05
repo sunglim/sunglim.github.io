@@ -1,25 +1,25 @@
 ---
 layout: post
-title:  "algoria 검색창달기"
+title:  "algolia 검색창달기"
 date:   2019-11-23 18:00:35 +0900
 categories: jekyll update
 ---
 
-jekyll에 algoria기반의 검색창을 달려고한다.
+jekyll에 algolia기반의 검색창을 달려고한다.
 
 뭘 먼저 보야할지 모르겠다. 일단 예제부터 찾아본다.
 
-### jekyll에 algoria 붙이는 가이드
+### jekyll에 algolia 붙이는 가이드
 [cloudcannon가이드](https://learn.cloudcannon.com/jekyll/algolia/)
 
-### 일반적인 algoria에 대한 가이드
+### 일반적인 algolia에 대한 가이드
 [Getting Started](https://www.algolia.com/doc/guides/getting-started/how-algolia-works/)
 
 [Interactive tutorial](https://www.algolia.com/doc/)
 
 * 배운것
 
-Algoria는 search API를 제공하는데, application id에 index를 만들고, 해당 index에
+Algolia는 search API를 제공하는데, application id에 index를 만들고, 해당 index에
 
 search하기위한 자료를 넣는다. 그리고 API를 통해 그 자료들을 검색할수있도록 해준다.
 
@@ -57,16 +57,31 @@ Q. index에 item을 어떻게 추가할수있다는거지?
 Option#1. script를 만들어서 제목리스트로 추가?
 Q2. 그럼 내용검색은 어떻게하지?
 
-### algoria에서 제공하는 jekyll plugin
+### algolia에서 제공하는 jekyll plugin
 
-당연하게도 algoria에서 jekyll용 plugin을 제공하는데,
+당연하게도 algolia에서 jekyll용 plugin을 제공하는데,
 
-Post를 쓰고 난후 jekyll algoria를 하면 plugin을 통해 index를 업데이트 쳐주는 방식이다.
+Post를 쓰고 난후 jekyll algolia를 하면 plugin을 통해 index를 업데이트 쳐주는 방식이다.
 
-[jekyll algoria;getting-started](https://community.algolia.com/jekyll-algolia/getting-started.html)
+[jekyll algolia;getting-started](https://community.algolia.com/jekyll-algolia/getting-started.html)
 
-Gemfile 을 수정하여 plugin을 추가해주고 `_config.yml`을수정하여 algoria세팅을 해준다.
+Gemfile 을 수정하여 plugin을 추가해주고 `_config.yml`을수정하여 algolia세팅을 해준다.
 
 [my change](https://github.com/sunglim/sunglim.github.io/commit/4f9694f016e6124bf0e695f27d24f06c2381c268)
 
 여기까지 backend 이고, frontend는 InstanceSearch라는 library를 쓰나보다.
+
+### InstantSearch.js
+
+* use prebuilt version of InstantSearch.js from CDN.
+* In jekyll blog, it might need to be inserted to header.
+
+Widget을 이용해서 하는것같은데..
+
+먼저 jekyll의 모든 페이지에 InstantSearch js, css가 포함될수있도록,  `_include/head.html`에 include해주었다.
+
+minima theme를 쓰고있기때문에 minima 에서 쓰는 head.html을 복사해서 script 테그를 달아준다.
+하는방법: https://mmistakes.github.io/minimal-mistakes/docs/overriding-theme-defaults/
+
+
+https://community.algolia.com/instantsearch.js/v2/widgets/searchBox.html

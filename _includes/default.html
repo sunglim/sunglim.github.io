@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
+  <body onload="buildWidget()">
+  <script>
+			function buildWidget() {
+				document.getElementById("search-box").innerHTML = "search-box aa";
+			}
+  </script>
+  <div class="search-box" id ="search-box">search_box</div>
+
+    {%- include header.html -%}
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </main>
+
+    {%- include footer.html -%}
+
+  </body>
+
+</html>

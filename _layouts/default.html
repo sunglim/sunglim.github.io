@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
+  <body onload="buildWidget()">
+  <script>
+      // app id
+			// search only api key
+			function buildWidget() {
+        const search = instantsearch(
+          { indexName: 'jekyll_blog',
+						searchClient: algoliasearch(
+							'I2X1XFAM0D',
+							'9db8946e9f3cae61db59553cf54dee6b'
+						),
+
+          } 
+        );
+
+    search.addWidgets([
+        instantsearch.widgets.searchBox({
+          container: '#search-box',
+          placeholder: 'Search for products',
+          autofocus: false,
+          poweredBy: true,
+          reset: true,
+          loadingIndicator: false
+        }),
+        instantsearch.widgets.hits({
+          container: '#hits',
+        })
+    ]);
+
+search.start();
+			}
+  </script>
+  <div id ="search-box"></div>
+  <div id ="hits"></div>
+
+    {%- include header.html -%}
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </main>
+
+    {%- include footer.html -%}
+
+  </body>
+
+</html>
