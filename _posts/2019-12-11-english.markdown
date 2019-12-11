@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "There may have been some misunderstanding"
+date:   2019-12-11 19:59:35 +0900
+categories: jekyll update
+---
+
+It looks like there may have been some misunderstanding about ~
+
+I just want to take a moment to clean that up just so that there is no more confusion.
+
+Once we get the straighted out, we can move on to out main topic today.

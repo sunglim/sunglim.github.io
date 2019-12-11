@@ -1,5 +1,4 @@
 <header class="site-header" role="banner">
-  <div id ="search-box"></div>
   <div class="wrapper">
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
@@ -27,4 +26,6 @@
       </nav>
     {%- endif -%}
   </div>
+  <!-- need a better place -->
+  <div id ="search-box"></div>
 </header>
