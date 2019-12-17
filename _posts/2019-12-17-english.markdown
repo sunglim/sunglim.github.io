@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "I used to be one of those people"
+date:   2019-12-17 20:00:35 +0900
+categories: jekyll update
+---
+
+I used to be one of those people who had to always be in a biggest city
+
+I used to be the kind of person 이라고 할수도 있음.
