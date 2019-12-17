@@ -1,3 +1,9 @@
+// This JS file adds search box and hits widget. Hits widget shows search result
+// By using algoliasearch library, the search result could be forward to blog
+// dynamically.
+// And by using instantsearch library, searchbox and hits widget could be easily
+// generated.
+
 const search = instantsearch({
   indexName: 'jekyll_blog',
   searchClient: algoliasearch(
@@ -24,7 +30,8 @@ search.addWidgets([
     container: '#hits',
     templates: {
       empty: 'No results for <q>{{ query }}</q>',
-    },
+      item: '<a href="{{url}}">{{title}}<hr>{{content}}</a>'
+    }
   })
 ]);
 
