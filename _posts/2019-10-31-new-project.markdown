@@ -23,6 +23,8 @@ Above values are that I keep watching every day.
  - Instead of using realtime database like MS SQL. I decided to use google sheet
    as a database. Google sheeet provide a bunch of API that I can easily use.
 
-
 # Study Plan
   Google Clound Function(https://cloud.google.com/functions/)
+
+# TODO
+  Write a script to get data from google sheet. and use it on my blog.
