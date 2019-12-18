@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Project: 환율 알람"
-date:   2019-10-31 02:59:35 +0900
 categories: jekyll update
 ---
 
