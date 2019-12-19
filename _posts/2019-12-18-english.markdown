@@ -1,0 +1,18 @@
+
+---
+layout: post
+title:  "Use google sheet API"
+categories: jekyll update
+---
+
+I'm going to use google sheet like a databas
+
+# How to
+
+Materials:
+
+https://developers.google.com/sheets/api/samples/reading
+
+How to enable sheet API: https://www.youtube.com/watch?v=shctaaILCiU&t=1s
+
+Step#1. Create Client ID

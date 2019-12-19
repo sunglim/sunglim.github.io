@@ -1,0 +1,12 @@
+
+---
+layout: post
+title:  "I think I was a little careless with my words"
+categories: jekyll update
+---
+
+I'm sorry I was a little careless with my words
+
+don't let it get to you.
+
+Don't take it so personally.
