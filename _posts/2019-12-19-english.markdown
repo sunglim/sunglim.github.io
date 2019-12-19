@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title:  "I think I was a little careless with my words"
@@ -10,3 +9,8 @@ I'm sorry I was a little careless with my words
 don't let it get to you.
 
 Don't take it so personally.
+
+
+공손하게 부탁할때 
+
+I'd like it if we could do something together.
