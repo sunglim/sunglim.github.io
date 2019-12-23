@@ -27,3 +27,6 @@ Client id 를 복사해둔다.  API key를 추가해서 보안을 강화할수�
 How to enable sheet API: https://www.youtube.com/watch?v=shctaaILCiU&t=1s
 
 Step#1. Create Client ID
+
+Note: If the sheet is public, then we can access the sheet with only API key.
+that means we don't need to request authorization.
