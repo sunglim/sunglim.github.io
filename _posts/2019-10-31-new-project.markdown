@@ -26,5 +26,13 @@ Above values are that I keep watching every day.
 # Study Plan
   Google Clound Function(https://cloud.google.com/functions/)
 
+  1. HTTP Tutorial
+
+  https://cloud.google.com/functions/docs/tutorials/http
+
+  To use the google cloud, Google Cloud SDK Installer should be installed first.
+
 # TODO
   Write a script to get data from google sheet. and use it on my blog.
+
+  Write up-to-date currency to spread sheet using google cloud function

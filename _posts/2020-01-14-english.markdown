@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "obvious vs short code"
+date:  2020-01-14 15:16:33 +0900 
+categories: jekyll update
+---
+
+I would always prefer obvious code over short code.
+
++1. Short is nice insofar as it lets you fit more of the code in your head at once, but clarity is the goal. I'm fairly unconvinced that just having a (D)CHECK that something didn't fail (if we believe it cannot) or a conditional statement (if we believe it might) isn't the right solution. That's what we do nearly everywhere else.
+
+
