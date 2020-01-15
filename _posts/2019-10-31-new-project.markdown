@@ -32,7 +32,24 @@ Above values are that I keep watching every day.
 
   To use the google cloud, Google Cloud SDK Installer should be installed first.
 
+  project: blog-test-project-262907 is selected
+
+  In this tutorial, we deploy node project to gcloud
+
+  https://REGION-PROJECT_ID.cloudfunctions.net/helloGET
+
+  invoked by HTTP request.
+
+  2. Serverless web performance monitoring using cloud functions
+
+  https://cloud.google.com/solutions/serverless-web-performance-monitoring-using-cloud-functions
+
 # TODO
   Write a script to get data from google sheet. and use it on my blog.
 
   Write up-to-date currency to spread sheet using google cloud function
+
+  Write node project that writes currency to google sheet
+
+# Info
+  Cloud Scheduler<https://cloud.google.com/scheduler/> manages cron job service.
