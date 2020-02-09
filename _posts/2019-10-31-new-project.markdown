@@ -51,5 +51,15 @@ Above values are that I keep watching every day.
 
   Write node project that writes currency to google sheet
 
+  study cloud scheduler https://cloud.google.com/scheduler/docs/quickstart/
+
 # Info
-  Cloud Scheduler<https://cloud.google.com/scheduler/> manages cron job service.
+  [Cloud Scheduler]<https://cloud.google.com/scheduler/> manages cron job service.
+
+  Google Cloud Scheduler를 이용하여 cronjob을 만들수가 있음. 이때 트리거 당하는쪽은
+  pub/sub방식 http방식 혹은 app engine 이 될수가 있음. 
+  cloud scheduler 자체는 상당히 간단한 그냥 트리거만 시켜줌. 구현은 각각에서 해야함.
+
+  이 펑션은  google clound function으로 구현가능, 혹은 firebase도 pubsub지원
+
+  pub/sub 이해 https://cloud.google.com/pubsub/docs/quickstart-py-mac
