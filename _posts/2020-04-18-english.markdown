@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "코로나 중반 주식시장 기록""
+title:  "코로나 중반 주식시장 기록"
 date:  2020-04-18 23:01:07 +0900 
 categories: jekyll update
 ---
