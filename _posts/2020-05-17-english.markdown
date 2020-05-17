@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "English"
+date:  2020-05-17 20:49:51 +0900 
+categories: jekyll update
+---
+
+My phone keeps losing connection for some reason. It's gotten worse lately.
+
+Have you tried restarting it? You mean turning it off and on? Yeah of course. sometimes it works. sometimes it doesn't.
+
+Maybe it's time for you to get a new phone
+
+Maybe = 50%의 확률로 말하는것. 
+
+probably = 아마도
