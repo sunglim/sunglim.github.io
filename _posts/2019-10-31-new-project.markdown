@@ -54,6 +54,7 @@ Above values are that I keep watching every day.
    > Cloud Scheduler job을 하나 만듬. console에서 만들수도 있고 terminal로 만들수도 있음.
    > 이 scheduler는 HTTP를 post로 하나 날리는데, Authentication 정보를 실어서 날림
     -> 이게 뭔지 공부해야할듯. Add OIDC token?, service acccount ? Audience?
+    -> gcluod iam 공부해야할듯
 
 # TODO
   Write a script to get data from google sheet. and use it on my blog.
