@@ -28,7 +28,7 @@ Above values are that I keep watching every day.
 
   1. HTTP Tutorial
 
-  https://cloud.google.com/functions/docs/tutorials/http
+  <https://cloud.google.com/functions/docs/tutorials/http>
 
   To use the google cloud, Google Cloud SDK Installer should be installed first.
 
@@ -42,7 +42,18 @@ Above values are that I keep watching every day.
 
   2. Serverless web performance monitoring using cloud functions
 
-  https://cloud.google.com/solutions/serverless-web-performance-monitoring-using-cloud-functions
+  <https://cloud.google.com/solutions/serverless-web-performance-monitoring-using-cloud-functions>
+
+  * Start studying.
+  - regularly monitoring page performance.
+  - this project uses Cloud Scheduler job to periodically trigger the first Cloud Function. <- key
+
+  a. Cloud project를 생성
+   - serverless-may-24
+  
+   > Cloud Scheduler job을 하나 만듬. console에서 만들수도 있고 terminal로 만들수도 있음.
+   > 이 scheduler는 HTTP를 post로 하나 날리는데, Authentication 정보를 실어서 날림
+    -> 이게 뭔지 공부해야할듯. Add OIDC token?, service acccount ? Audience?
 
 # TODO
   Write a script to get data from google sheet. and use it on my blog.
