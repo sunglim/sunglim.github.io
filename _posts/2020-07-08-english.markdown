@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "Probably, Maybe, otherwise"
+date:  2020-07-08 19:08:09 +0900 
+categories: jekyll update
+---
+
+
+Probably = 아마도
+
+probably not = 아마 아닐껄
+
+Maybe = 어쩌면
+
+if~~ , you ... ,   other wise~~  =  만약 ~~한다면 너는 ... 한다, 그렇지않으면~
+
+if you leave now, you might catch ~~ 운좋으면,  잘하면 너는~
