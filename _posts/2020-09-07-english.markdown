@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "Have Chiense food delivered"
+date:  2020-09-07 16:31:32 +0900 
+categories: jekyll update
+---
+
+Have Chinese food delivered = 배달시키다
+
+We had Chinese food delivered
