@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "日本語"
+date:  2020-10-15 19:16:22 +0900 
+categories: jekyll update
+---
+
+So far in my life, I've struggled to learn new things. It was mostly technical stuff.
+
+What would be my next journey? I want something very very difficult to archive. technical things are somewhat realistic, but it's boring.
+What about learning investment. I've already done it.
+
+# 日本語
+
+Learning Japanese is my next journey. Learning language is generally thought one of most difficult thing. and it's almost impossible to be fluently such as native.
+
