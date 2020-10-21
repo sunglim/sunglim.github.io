@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Linkedin"
+date:  2020-10-22 00:24:16 +0900 
+categories: jekyll update
+---
+
+Yesterday I visited Linked in 4 or 5 years. and I checked how my Linkedin friends are doing.
+
+
+
+And those Linkedin friends reminded me the old days I was a some sort of internet troll.  At that time, I just jumped in any opensource projects that seemed interesting, and asked question, requested code review, wrote anything in online community with my bad English.
