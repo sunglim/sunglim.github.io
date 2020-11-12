@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "메가 트랜드"
+date:  2020-11-12 10:03:29 +0900 
+categories: jekyll update
+---
+
+중국의 전기차 산업 육성 -> Nio
+
+오일산업의 몰락
+
+중국기업의 기술육성과 미국의 저지

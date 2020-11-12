@@ -1,0 +1,75 @@
+---
+layout: post
+title:  "kong study}"
+date:  2020-11-09 14:34:25 +0900 
+categories: jekyll update
+---
+
+1. Add your Service using the Admin API
+
+services  로 url을 날려준다. 이름은 example-service. 이 주소는 mockbin.org로 갈거다.
+
+```
+$ curl -i -X POST \
+  --url http://localhost:8001/services/ \
+  --data 'name=example-service' \
+  --data 'url=http://mockbin.org'
+```
+
+2. Add a Route for the Service
+
+`1` 에서 만든 서비스로 라우팅을 할거야..
+
+그 주소는  services/example-service/routes 이다.
+
+```
+ curl -i -X POST \
+  --url http://localhost:8001/services/example-service/routes \
+  --data 'hosts[]=example.com'
+```
+
+3. Forward your requests through Kong
+실제 해보는것 , header Host: example.com 을 붙여줘야한다.
+
+```
+curl -i -X GET \
+  --url http://localhost:8000/ \
+  --header 'Host: example.com'
+```
+
+그러면 mockbin.org로 포워딩이 된다.
+
+4. plugin을 설치할건데,  기존 서비스에다가 붙이는 방식이다. 그래서 URL이
+
+```
+curl -i -X POST --url http://localhost:8001/services/example-service/plugins --data 'name=key-auth'
+```
+
+5. consumer 생성. ID를 리턴해준다.
+```
+curl -i -X POST --url http://localhost:8001/consumers/ --data "username=Json"
+```
+
+6.  위에서 얻은 ID를 갖고 key를 생성한다.  ENTER_KEY_HERE부분에 id를 넣어준다.
+
+```
+ curl -i -X POST \
+     --url http://localhost:8001/consumers/Jason/key-auth/ \
+       --data 'key=ENTER_KEY_HERE'
+       ```
+
+7.  url때릴때 요렇게 하면된다..
+```
+curl -i -X GET   --url http://localhost:8000/   --header 'Host: example.com' --header "apikey: 2719edb4-d30d-4001-8dd8-d4e064857b45"
+```
+
+# ingress controller
+
+* https://www.youtube.com/watch?v=2LInu_ZiL3E
+
+# API gatewway pattern
+* https://www.youtube.com/watch?v=OUUiS28hZuw
+
+# API gateway explained
+
+* https://www.youtube.com/watch?v=8WuVBbXsHzg
