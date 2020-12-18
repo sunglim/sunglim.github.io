@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "TLS/ mTLS Understanding"
+date:  2020-11-26 17:50:29 +0900 
+categories: jekyll update
+---
+
+public/private key pair 가 필요하다.
+
+private key 대신에 key라고도 하고, 
+public key대신에 certificate라고도 한다.
+
+client 가 service에접속할때 service의 정체를 밝히라고한다.. 이때 써버는 그의 certificate를 clinet에게 보옂준다.
+
+client는  certificate안의 public키를 이용하여 secret number를 만든다.
+
+server한테 decrypt하라고한다. private key가 있어야만 decrypt할수가 있다. -> 이것으로 server가 certificate를 갖고있던 사람인지 알수있다. 
+
+j
