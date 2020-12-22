@@ -5,6 +5,13 @@ date:  2020-12-21 19:19:24 +0900
 categories: jekyll update
 ---
 
+
+## The human condition
+
+_The Daily Show_ reported recently that the scientists in Japan had invented a robot that is capable of regonizing its own reflection in a mirror.
+
+"When the robot learns to hate what it seees," said Jon Stewart, "it will have achieved full humanity"
+
 ## Habits
 
 The difference between an amateur and a profession is in their habits.
