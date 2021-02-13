@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "techlead"
+date:  2021-02-03 21:04:01 +0900 
+categories: jekyll update
+---
+
+Hey. welcome back techlead here.
+
+So in this ensuing battle Apple and Facebook, Apple has just launched the IOS 14.5 beta which means that they're getting ready to launch this full flash to everybody. 
+
+And this could be the final nail in the coffin for facebook. We will see hopely it is. Now to be clear both of these companies are quite monoplistic in both of practices. I'm not huge fans of either ones.
+
+So you kind of have to pick the lesser of two evils. I'd probably still go with Apple on this one. Simply because Facebook fired me.
+
+I want to give you some perspective what this all means. So with the ios 14.5 beta, apple is finally launching app tracking transparency framekwork.
+
