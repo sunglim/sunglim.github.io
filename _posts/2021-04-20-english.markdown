@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Engish: First"
+date:  2021-04-20 20:22:33 +0900 
+categories: jekyll update
+---
+
+First: 처음으로.  동사 앞에 와야함.
+
+when I first watched the video..
+
+At first: 처음에는. I was reluctant to help at first
+
+For the first time: 처음으로
