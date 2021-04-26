@@ -1,0 +1,23 @@
+---
+layout: post
+title:  "Kubebuilder: Designing an API"
+date:  2021-04-24 19:41:42 +0900 
+categories: jekyll update
+---
+
+Recently I started a project using kubebuilder.
+
+`Designing an API` document is a MUST READ before staring writing code.
+
+Link: https://book.kubebuilder.io/cronjob-tutorial/api-design.html
+
+* Use camelCase for json serialized field.
+
+For example, 
+```go
+
+type FooSpec type {
+    CamelCaseVariable int `json:camelCaseVariable`
+}
+
+* For numbers, use `int32` or `int64`. For decimals, use `resource.Quantity`
