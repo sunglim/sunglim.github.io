@@ -12,7 +12,7 @@ Recently I had to use Go language. So I set up a plan to learn Go langue very qu
 # Pluralsight Go: Getting Started
 
 This course explains very basic features of Go language. The things I was a bit confused were `module` concept and `interface`.
-Anyway, the course is really good to finish within one day. Now I can write Go code which is just working.
+Anyway, the course is really good to finish within one day. Now I can write Go code which is just working. But this course doesn't explain all about "testing".
 
 Everybody can write code that is working. But it's hard to write code that is maintainable.
 

@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Restruct my blog"
+date:  2021-05-01 20:46:52 +0900 
+categories: jekyll update
+---
+
+Requirements:
+ * Simple
+ * Communication(add comments)
+
+candidate:  https://github.com/Huxpro/huxpro.github.io
