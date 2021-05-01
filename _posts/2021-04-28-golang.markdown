@@ -1,0 +1,44 @@
+---
+layout: post
+title:  "My journey to study Go lang"
+date:  2021-04-28 17:49:43 +0900 
+categories: jekyll update
+---
+
+Go language is new to me. Well, frankly speaking, 10 years ago. I had a quick look but I lost my interested, and I focused  into Dart language. At that time, Go and Dart they both were new language and they both looks decent. But 10 years after, now Go is stil one of the hottest language, on the other hand, Dart is pretty much dead.
+
+Recently I had to use Go language. So I set up a plan to learn Go langue very quickly.
+
+# Pluralsight Go: Getting Started
+
+This course explains very basic features of Go language. The things I was a bit confused were `module` concept and `interface`.
+Anyway, the course is really good to finish within one day. Now I can write Go code which is just working.
+
+Everybody can write code that is working. But it's hard to write code that is maintainable.
+
+When I have to write code. and if the programming language is new to me, I first take a look at the coding convention of that language. That way, I can satisfy very minimum requirement. The minimum requirement in this context is a skill to work with other people.
+
+# Read the effeictive Go
+
+In Go language, there's one popular document explaining coding convention of Go language. It's written by Go community(mostly Googler).
+
+* https://golang.org/doc/effective_go
+
+## Formatting
+
+`gofmt` formats the source.
+
+* Indentation: use tabs
+* Line length: no line length limits
+
+## Commentary
+
+package comment is documented with `godoc`. don't care about the line length. godoc takes care of it.
+
+_The first sentence should be a one-sentence summary that starts with the name being declared._. by doing so, we can use doc subcommand. And run the output through `grep`.
+
+## Names
+
+### Package names
+
+By convention, packages are given lower case, single-word names; there should be no need for underscores or mixedCaps.
