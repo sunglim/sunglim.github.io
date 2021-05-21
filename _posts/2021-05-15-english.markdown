@@ -8,4 +8,35 @@ tag:
   - book
 ---
 
+# Ch5. How to Lead a Team
+
+## The Tech Lead
+
+The tech lead (TL) of a team—who will often report to the manager of that team—is
+responsible for (surprise!) the technical aspects of the product, including technology
+decisions and choices, architecture, priorities, velocity, and general project manage‐
+ment (although on larger teams they might have program managers helping out with
+    this). The TL will usually work hand in hand with the engineering manager to ensure
+that the team is adequately staffed for their product and that engineers are set to work
+on tasks that best match their skill sets and skill levels. Most TLs are also individual
+contributors, which often forces them to choose between doing something quickly
+themselves or delegating it to a team member to do (sometimes) more slowly. The
+latter is most often the correct decision for the TL as they grow the size and capability
+of their team.
+
 I can get a free PDF version here https://abseil.io/resources/swe-book
+
+## Antipattern: Hire Pushovers
+
+You should strive to hire people who are smarter than you.
+
+## Antipattern: Ignore low performers
+
+The benefit of dealing with a low performer as quickly as possible is that you can put
+yourself in the position of helping them up or out.
+
+## Antipattern: Treat your team like children
+
+If I treat team members like kinds - people tend to act the way I treat them.
+
+
