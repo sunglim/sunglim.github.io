@@ -6,9 +6,22 @@ categories: jekyll update
 comments: true
 tag:
   - book
+  - software
 ---
 
 I can get the free PDF version https://abseil.io/resources/swe-book
+
+# Ch1. What Is Software Engineering?
+
+Three difference between programming and software engineering are time, scale, and the trade-off at play. As software engineers, we are asked to make moer complex decisions with higher-stake outcomes, often based on imprecise estimates of time and growth.
+
+Programming tasks(development), software engineering tasks(development, modification, maintenance). The addition of time adds an important new dimension to programming.
+
+## Time and Change
+
+The life span of software is not one day. it's not programming assignment or startup development. A transition happens: A program must begin to react to chaning externalities.
+
+## Hyrum's Law
 
 # Ch5. How to Lead a Team
 
