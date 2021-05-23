@@ -1,12 +1,14 @@
 ---
 layout: post
-title:  "Book review (WIP)"
+title:  "Book review: Software Engineering At Google (WIP)"
 date:  2021-05-15 18:49:10 +0900 
 categories: jekyll update
 comments: true
 tag:
   - book
 ---
+
+I can get the free PDF version https://abseil.io/resources/swe-book
 
 # Ch5. How to Lead a Team
 
@@ -24,7 +26,10 @@ themselves or delegating it to a team member to do (sometimes) more slowly. The
 latter is most often the correct decision for the TL as they grow the size and capability
 of their team.
 
-I can get a free PDF version here https://abseil.io/resources/swe-book
+## Moving from indivisual contributor role to a Leadership Role
+
+You might find yourself sucked into helping your team resolve conficts, make decisions, and coordinate people.
+Maybe you never intended to beomce a 'leader', but somehow it happended anyway.
 
 ## Antipattern: Hire Pushovers
 
