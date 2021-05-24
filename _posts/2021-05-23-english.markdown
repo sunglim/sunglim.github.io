@@ -1,0 +1,20 @@
+---
+layout: post
+title:  "What's in my package"
+date:  2021-05-23 21:01:36 +0900 
+categories: jekyll update
+tag:
+  - travel
+---
+
+* My Mac
+
+* Google TV
+
+* Power Supplier for Mac, for iphone
+
+* Airpod
+
+* Contact lens
+
+* 로션
