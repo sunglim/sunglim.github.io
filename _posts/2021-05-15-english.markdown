@@ -23,6 +23,11 @@ The life span of software is not one day. it's not programming assignment or sta
 
 ## Hyrum's Law
 
+If you are maintaining a project that is used by other engineers, the most important
+lesson about “it works” versus “it is maintainable”
+
+# Ch2. Culture
+
 # Ch5. How to Lead a Team
 
 ## The Tech Lead
