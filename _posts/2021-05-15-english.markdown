@@ -26,6 +26,38 @@ The life span of software is not one day. it's not programming assignment or sta
 If you are maintaining a project that is used by other engineers, the most important
 lesson about “it works” versus “it is maintainable”
 
+## Why Not Just Aim for “Nothing Changes”?
+
+"For most projects, over a long enough time period, everything underneath them
+might need to be changed.”
+
+Security problems are disclosed. Your project uses some library. and it depends on risk of containing critical bugs and security vulnerabilities.
+
+Efficiency improvements further complicate the picture.
+
+Upgrading to newer hardware can be diminished. No mistakes were made, but the
+passage of time still made change valuable.
+Change is not inherently good. We shouldn’t change just for the sake
+of change. But we do need to be capable of change
+
+## Scale and Efficiency
+
+Site Reliability Engineering (SRE) book.
+Human costs are not the only finite resource that needs to scale. 
+ If the compute cost for your test cluster grows superlinearly, consuming
+ more compute resources per person each quarter, you’re on an unsustainable path
+ and need to make changes soon.
+
+“How long does
+it take to do a full build?”, “How long does it take to pull a fresh copy of the reposi‐
+tory?”, or “How much will it cost to upgrade to a new language version?” aren’t
+actively monitored and change at a slow pace. They can easily become like the meta‐
+phorical boiled frog;
+
+Everything your organization relies upon to produce and maintain code should be
+scalable in terms of overall cost and resource consumption. In particular, everything
+your organization must do repeatedly should be scalable in terms of human effort.
+
 # Ch2. Culture
 
 # Ch5. How to Lead a Team
