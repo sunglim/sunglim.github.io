@@ -9,3 +9,13 @@ tag:
 ---
 
 ![My helpful screenshot](/img/2021-05-18.jpg)
+
+# Preface
+
+Problem decomposition: How to take a complex problem and divide it up into piece that can be solved indivisually.
+
+Students learn best by writing code, making mistakes, and seeting how their mitakes and subsequent fixes related to the principles.
+
+The overall goal is to reduce complexity.
+
+# Chapter 1. Introduction (It's all about complexity)
