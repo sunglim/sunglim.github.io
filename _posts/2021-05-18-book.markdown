@@ -19,3 +19,25 @@ Students learn best by writing code, making mistakes, and seeting how their mita
 The overall goal is to reduce complexity.
 
 # Chapter 1. Introduction (It's all about complexity)
+
+All programming requires is a create mind and the ability to organize your thoughts. If you can visualize a system, you can probably implement it in a computer program. The limitation is our ability to understand the system.
+
+Complexity will still increase over time, in spite of our best effrots, but simpler design allow us to build larger and more powerful systems before complexity becomes overwhelming.
+
+Two general approaches:
+
+* Eliminate complexity by making code simpler and more obvious.
+
+For instance, Copmlexity can be reduced by eliminating special cases or using identifier in consistent fashion.
+
+* Encapsulate the complexity = modular design
+
+Relatively indepent of each other. so that a program can work on one module without having to understand the detail of other modules.
+
+Waterfall model rarely works well for software. -> Scrum
+
+1.1 How to use this book
+
+The best way to use this book is in conjuction with code reviews. It's easier to see design problem in someone else's code than your code.
+
+# Chapter 2. The Nature of Complexity
