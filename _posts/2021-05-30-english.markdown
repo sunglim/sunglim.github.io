@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "OAuth 2.0 study"
+date:  2021-05-30 17:06:35 +0900 
+categories: jekyll update
+tag:
+  - oauth
+  - study
+---
+
+## A problem of API Authorization
+
+Past - XML, SOAP, SAML.
+
+Current - JSON, 
+
+Authentication: 
+
+Authorization:
