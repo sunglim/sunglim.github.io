@@ -71,3 +71,12 @@ How much a developer needs to know in order to complete a task.
 Sometimes an approach that requires more lines of code is actually simpler, because it reduces congnitive load.
 
 ### Unknown unknowns
+
+It is not obvious which pieces of code must be modified to complete a task.
+It is the worst. It hides bugs. Unknown unknown means that there is something you need to know, but there is no way for you to find out what it is, or even whether there is an issue. You won't find out about it until bugs appear after you make a change.
+
+One of the most important goals of good design is for a system to be _obvious_.
+
+## 2.3 Causes of complexity
+
+
