@@ -8,12 +8,21 @@ tag:
   - study
 ---
 
+# API Security 101
+
+cookie is not suitable.
+
 ## A problem of API Authorization
 
-Past - XML, SOAP, SAML.
+Past - XML, SOAP, SAML. WS-*.
 
-Current - JSON, 
+Combine this data on the internet of things
 
-Authentication: 
+XML was too verbose. Early mobile devices had query string length limitations on.
 
-Authorization:
+Present - JSON, HTTP APIs, Oauth & Open API connect. 
+
+Authentication: is the process of verify identify. - user name and password.
+
+Authorization: is someone is allowed to do. - access to do
+
