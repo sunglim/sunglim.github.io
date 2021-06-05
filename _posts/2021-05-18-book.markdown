@@ -79,4 +79,69 @@ One of the most important goals of good design is for a system to be _obvious_.
 
 ## 2.3 Causes of complexity
 
+A dependency exists when a given piece of code can not be understood and modified in isolation.
 
+Dependencies are a fundamental part of software and can't be completely eliminated. One of the goals of software design is to reduce the number of dependencies and to make the deppendencies that remain as simle and obivous as possible.
+
+Obscurity(모호함) occurs when import imformation is not obvious. A simple example is a variable naame that is so generic.
+
+Inconsistency is also a major contributor to obscurity.
+
+The best way to reduce obscurity is by simplifying the system design. Dependencies lead to change amplification and a high cognitive load.
+
+## 2.4 Complexity is incremental
+
+Complexity comes about because hundreads of thousands of small dependencies and obscrities build up over time.
+
+The incremental nature of complexity make it hard to control. It's easy to convice yourself that a little bit of complexity introduced by your current change is no big deal. Complexity accumulates rapidly.
+
+Once complexity has accumulated, it's hard too eliminated. Since fixing a single dependency or obscurity will not by itself. Making a big difference. You must adopt a 'Zero tolerance' philosophy.
+
+## 2.5 Conculusiono
+
+Complexity comes from an accumulation of dependencies and obscurities.
+
+# Chapter 3. Working Code Isn't Enough (Strategic vs. Tctical Programming)
+
+Why strategic approach produces better designs and it actually cheapter than tatical approach over the long run.
+
+## 3.1 Tactical programming
+
+In tactical programming, your main focus is to get someting working. However, tactiical programming makes it nearly impossible to produce good system design.
+
+Tactical programming is 'sshort-sighted'. Planning for the future isn't a priority. You tell yourself that it's ok to add a bit of complexity or introduce a small kludge or two. This is howo system become complicated.
+
+## 3.2 Strategic programming
+
+*Working code isn't enough.* It's not aacceptable to introduce unnecessary cmplexity in order to finish your current task faster.  The most imporotant thing is the long-term structure of the system.
+
+Most of the code in any system is written by extending the existing code, so your most important job as a developer is to facilitate those future extension. Your primary goal must be to produce a great design which happen to work. This is strategic programming.
+
+Investment mindset.
+
+It will slow you down a bit in the short term. But they will speed you up in the long term.
+
+Some of the investment will be proactive! it's worth taking a little extra time to find a simple design for the new class rather than implementing the first idea that come to mind.
+
+Other investment will be reactive. No matter how much you invest up front, there will inevitably be mistake in your design decision. (완벽할순 없다. watterfall은 안된다는걸 증명하지않았나?). Take a little time to fix it.
+
+If you program stragically, you will continually make small improvements to the system design.
+(tactiical은 작게작게 complexity를 증가시키지만, strategic은 작게작게 system design을 개선한다.)
+
+## 3.3 How much to invest?
+
+A huge up-front investment won't be effective. This is the waterfall method. The best approach is to make lots of small investment on a continual basis.
+
+10-20% small enough that itsn't imppact your schedule. but large enough to produce significat benefits over time.
+
+## 3.4 Startups and investment
+
+In some environments there are strong forces working against the strategic approach.
+
+Once a code base turns to sspaghetti, it is nearly impossible to fix. The quality of its engineers. If your code base is wreck, word will get out, and this will make it harder for you to recruit. As a result, you are likely to end up with mediocre engineers.
+
+It's a lot more fun to work in a company that cares about software design and has a clean code base.
+
+## 3.5 Conclusion
+
+The most effective approach is one where every engineer makes continous small investments in good design.
