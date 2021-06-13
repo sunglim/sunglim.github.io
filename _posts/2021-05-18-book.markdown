@@ -146,3 +146,53 @@ It's a lot more fun to work in a company that cares about software design and ha
 ## 3.5 Conclusion
 
 The most effective approach is one where every engineer makes continous small investments in good design.
+
+# Chapter 4. Modules Should Be Deep
+
+Developers only need to face a small fraction of the overall complexity at any given time. This approach is called 'modular design'.
+
+## 4.1 Modular design
+
+A system is decomposed(분해되다) into a collection of modules that are relatively independent. In an ideal world, each module would be completely independent of the other: a developer could work in any of the modules without knowing anything about any of the other modules.
+
+Unfortunately, this ideal is not achievable. The goal of modular design is to minimize the dependencies between modules.
+
+The interface describes what the module does but not how it does it. It consist of everything that a developer working in a different module must know in order to use the given module.
+
+The best modules are those whose interfaces are much simpler than implementation. First, a simple interface minimize the complexity that a module imposes(강요하다) on a rest of the system. Second, if a module is modified in a way that does not change its interface, then no other module will be affected by the modification. (인터페이스가 바뀌지않은 상태에서 구현이 바뀐다고 다른 모듈의 변경을 강요해서는 안된다.)
+
+## 4.2 What's in an interface
+
+Formal parts: specified explicitly in the code.
+
+Informal elements: not specified in a way in the code. 예를들어, A interface를 호출하기전에 B인터페이스를 먼저 호출해야하는 것. those can be described using comments, and progrramming language cannot ensure that the descriptionoo is complete or accurate.
+
+## 4.3 Abstractions
+
+An abstraction is a simplified view of an entity, which omits unimportant details.
+
+A detail can be omitted from an abstraction if it is unimportant.
+
+An important can go wrong in two ways. First, It can include details that are not really impprotant. It increase 'cognitive load'. Second error is when an abstract omits details that really are important. This result in 'obscurity'.
+
+An abstract that omits important details is a 'false abstraction'.
+
+The key to designing abstraction is to understand what is important.
+
+## 4.4 Deep modules
+
+'Deep' = powerful functionality yet have simple interfaces.
+
+Module depth is a way of thinking about cost versus benefit. The benefit provided by a module is its functionality. The cost of a module is its interface.
+
+## 4.5 Shallow modules
+
+Shallow module is one whoose interface is relatively complex in comparision to the functionality that it provide they don't provide help much in managing complexity.
+
+## 4.6 Classitis
+
+(Fun fact!)
+
+'classes should be small' approach is a syndrome called 'classitis'.
+
+Classitis may result in classes that are indivisually simple, but it increase the complexity of the overall system.
