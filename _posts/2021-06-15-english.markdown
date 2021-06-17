@@ -1,0 +1,48 @@
+---
+layout: post
+title:  "Book review: A philosophy of software design (From Ch.5 to )"
+date:  2021-06-15 18:49:10 +0900 
+categories: jekyll update
+comments: true
+tag:
+  - book
+  - software
+---
+
+![My helpful screenshot](/img/2021-05-18.jpg)
+
+# Chapter 5. Information Hiding (and Leakage)
+
+Discussing techniques for creating deep modules.
+
+## 5.1 Information hiding
+
+The most important technique for achieving deep module. The basic idea is that each module should encapsulated a few piece of knowledge. The knowledge is embedded in the module's implementation but does not appear in its interface.
+
+The information hidden usually consists of detilas about how to implement some mechanism.
+
+> 어떻게 구현햇냐에 대한것은 숨긴다
+
+Usually - hidden information includes 'data structures' and 'algorithms', 'low level details'
+
+Information hiding reduces complexity in two ways. - hides details. abstract view of the module's functionality. -> Reduces the congnitive load
+
+For example, a developer doens't needs to worry about how b-tree implemented.
+
+Second, information hiding makes it easier to evolve the system.  -> If a piece of infmration is hidden. there are no dependencies on the information outisde the module containing the information. -> 모듈화가 되어있다는 뜻
+
+## 5.2 Information leakage
+
+The opposite of information hiding is information leakage. This creates a dependency between the modules. -> 하나의 모듈이 바뀌었지만 여러가지 모듈이 같이 바껴야하는경우
+
+Information leakage is one of the most important red flags in software design.
+
+정의에 따르면 interface를 통해 정보가 공유되는것도 information leakage다. 그래서 simpler interfaces를 하는게 좋다.
+
+if you encounter information leakage between classes, ask yourself "how can I reorganize these classes so that this particular piece of knowledge only affects a single class?" If the affected classes are relatively small and closely tied to the leaked information, it may make sense to merge them into a single class.
+-> 영향받는 두 클레스가 작은 사이즈라면, 클레스를 합치는것.
+
+or pull the information out of all of the affected classes and create a new class that encapsulates just that information. 
+-> 공통된 정보를 빼내서 클래스를 따로 만드는것. 그 새로만든 인터페이스가 간단하고 encapsulate할수있어야한다.
+
+## 5.3 Temporal decomposition
