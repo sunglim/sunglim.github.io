@@ -45,4 +45,41 @@ if you encounter information leakage between classes, ask yourself "how can I re
 or pull the information out of all of the affected classes and create a new class that encapsulates just that information. 
 -> 공통된 정보를 빼내서 클래스를 따로 만드는것. 그 새로만든 인터페이스가 간단하고 encapsulate할수있어야한다.
 
-## 5.3 Temporal decomposition
+## 5.3 Temporal decomposition(시간적 분해)
+
+Temporal decomposition is one common cause of information leakage. In temporal decomposition, the structure of a system corresponds to the time order in which operation will occur.
+
+> 시간순서대로 시스템 구조가 만들어져있다.
+
+For example, reads a file, modifies the contents of the file, and then writes the file out again. With temporal decomposition, this applicaiton might be broken into three classes: read, modifiy, write.
+
+The solution is to combine the core mechanism for reading and writing files into a single class.
+
+> 읽기 쓰기를 하나의 클래스로 만든다.
+
+It's easy to fall into the trap of temporal decomposition, because the order in which operations must occur is often on your mind when you code. However, most design decisions manifest htemselves at several different times over the life of the application.
+
+> 시간순서대로 클래스를 만들지만 실제로는 어플리케이션 동작동안 여러번 나타난다.
+
+Order usually does matter, so it will be reflected somewhere in the application. However, it shouldn't be reflected in the module structure unless that struct is consistent with information hiding.
+
+*When designing module, focus on the knowledge that's needed to perform each task, not the order in wwhich tasks occur.*
+
+## 5.4 Eaample: HTTP server
+## 5.5 Example: too many classes
+
+
+
+# Chapter 10. Define Erros Out Of Existence
+
+Developers often define exceptions wwithout considering how they will be handled.
+
+The key is to reduce the number of places where xceptions must be handled; in many cases the semantics of operations can be modified so that the normal behavior handles all situations and here is no exceptional conditions to report.
+
+구현을 수정함으로써 일반적인 처리루틴으로 예외적인 상황을 줄일수있다.
+
+## 10.1 Why exceptions add complexity
+
+Exception - any uncommon condition that alter the normal flow of control in a program.
+
+Exceptions can occur even without using a formal exception reporting mechanism, such as when a method returns a special valuue indiciating that it didn't complete its normal behavior.
