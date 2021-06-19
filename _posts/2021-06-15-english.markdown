@@ -65,8 +65,60 @@ Order usually does matter, so it will be reflected somewhere in the application.
 
 *When designing module, focus on the knowledge that's needed to perform each task, not the order in wwhich tasks occur.*
 
-## 5.4 Eaample: HTTP server
+## 5.4 Example: HTTP server
 ## 5.5 Example: too many classes
+
+The most common mistake made by students was to divide their code into a large number of shallow class, which led to information leakage between the class.
+
+The first class read the request from the network connection into a string.
+The second class parsed the string.
+
+This is good example of a temproal decomposition (First we read the request, then we parse it.)
+
+an http request can't be read without parsing much of the message. -> 즉 그냥 읽을려고해도 메시지를 파싱해야한다.
+headers must be parsed into order to compute the toal request lenght.
+
+parsing code was duplicated in both classes. this approach also created extra complexity for caller, who had to invoke two methods in different classes, in a particular order, to receive a request.
+
+Because the classes shared so much information, it would have been better to merge  them into a single class that handles both request reading and parsing. 
+
+It isolates all knowledge of the request format in one class, and it also provide a simpler interface to caller.
+
+*Information hiding can often be improved by making a class slightly larger*
+
+## 5.6 Example: HTTP Parameter handling
+
+## 5.8 Information hiding with a class
+
+Information hidning can also be appplied at other levels in the system, such as within a class. Try to design the private methods hide it from the most of classes. Try to minimize the number of places where each instance variable is used. If you can reduce the number of places wwhere a variable is used, you will eliminiate dependencies within the class and reduce its complexity.
+
+> 변수가 사용되는곳을 줄여라
+
+## 5.9 Taking it too far
+
+If the information is needed outside the module then you must not hide it. 
+
+> 작동에 진짜 영향을 주는 중요한거라면 parameter로 expose하여야한다.
+
+# Chapter 6. General-Purpose Modules are Deepper
+
+A new module should be general-purpose or special-purpose.
+
+a broad range of problems 를 처리해야한다고 할수도있다. 이 경우는 예상치못한 케이스를 발견할수있다. 이런경우 investment mindset으로 접근하는것이고 나중을 위해 시간을 더 쓰는것이다.
+
+On the other hand, we know that it's hard to predict the future needs of a software system, so a general-purposoe solution might include facilities that are never actually needed. 그리고 너무 제너럴하게 하면 오늘당장 해결해야할 문제를 푸는데 적절하지않을수있다. 
+
+if you take special-purpose approach, you can always refactor it to make it general-purpose. The special-purpose approach seems consistent with an incremental approach to software development.
+
+## 6.1 Make classes somewhat general-purpose
+
+Somewhat general-purpose fashion. - The module's functionality should reflect your current needs, but its interface should not. Instead, the interface should be general enough to support multiple uses.
+
+> interface는 제너를하게 해서 나중을 대비한다.
+
+Don't build so general-pupose that it is difficult to use for your current needs.
+
+## 6.4 Generality leads to better information hiding
 
 
 
