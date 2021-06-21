@@ -120,6 +120,43 @@ Don't build so general-pupose that it is difficult to use for your current needs
 
 ## 6.4 Generality leads to better information hiding
 
+The general-purpose approach provides a cleaner separation between the text and user interface classes.
+
+General-purpose로 하니 이터페이스는 일반적인 것을 구현하게되고, 자연스럽게 구현 클래스와 분리가 된다.  예를들면
+Text class는 interface 가 어쩌든 관심이 없다. 백스페이스키를 어떻게 다루던.
+
+a developer working on the user interface only needs to learn a few simple methods, which cna be reduced for a variety of puprposes.
+
+Backspace를 어떻게 할것인가 하는건 general하지않지않은가? 
+
+When the details are important, it is better to make them explicit and as obvious as possible, such as the revised implementation of the backspace operation. Hiding this information behind an interface just creates obscurity.
+
+> 디테일이 진짜 중요한거면 노출하는게 혼란(obscurity) 를 줄여준다.
+
+## 6.5 Questions to ask yourself
+
+It is easiler to recognize a clean general-purpose class design than it is to creat eone.
+
+> 내가 직접하는것보다 옆에서 보는게 더 쉽게 판단할수있다
+
+What is the simplest interface that will cover all my current needs? 
+
+Reducing the number of methods makes sense only as long as the API for each individual method stays simple; if you have to introduce loots of additional arguments in roder to reduce the number of methods, then you may not really be simplifying things.
+
+In how many situations will this methods be used? 
+> 딱 한번 사용된다면 의심해야한다. special-purpose이므로
+
+Is this API easy to use for my current needs?
+> 너무 general할 경우 발생 
+
+## 6.6 Conclusioon
+
+General-purpose interfaces have many advantages oover special-purpose ones. They tend to be simpler, with fewer methods that are deeper. They also provide a cleaner separation between classes, whereas special-purpose interrfaces tend t oleak information between classes. Making your modules somewhat general-purpoose is oone of the best ways to reduce voerall system complexity.
+
+# Chapter 7. Different Layer, Different Abstractiono
+
+
+
 
 
 # Chapter 10. Define Erros Out Of Existence
