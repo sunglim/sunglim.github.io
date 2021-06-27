@@ -135,13 +135,13 @@ When the details are important, it is better to make them explicit and as obviou
 
 ## 6.5 Questions to ask yourself
 
-It is easiler to recognize a clean general-purpose class design than it is to creat eone.
+It is easiler to recognize a clean general-purpose class design than it is to create one.
 
 > 내가 직접하는것보다 옆에서 보는게 더 쉽게 판단할수있다
 
 What is the simplest interface that will cover all my current needs? 
 
-Reducing the number of methods makes sense only as long as the API for each individual method stays simple; if you have to introduce loots of additional arguments in roder to reduce the number of methods, then you may not really be simplifying things.
+Reducing the number of methods makes sense only as long as the API for each individual method stays simple; if you have to introduce loots of additional arguments in order to reduce the number of methods, then you may not really be simplifying things.
 
 In how many situations will this methods be used? 
 > 딱 한번 사용된다면 의심해야한다. special-purpose이므로
@@ -149,21 +149,97 @@ In how many situations will this methods be used?
 Is this API easy to use for my current needs?
 > 너무 general할 경우 발생 
 
-## 6.6 Conclusioon
+## 6.6 Conclusion
 
-General-purpose interfaces have many advantages oover special-purpose ones. They tend to be simpler, with fewer methods that are deeper. They also provide a cleaner separation between classes, whereas special-purpose interrfaces tend t oleak information between classes. Making your modules somewhat general-purpoose is oone of the best ways to reduce voerall system complexity.
+General-purpose interfaces have many advantages over special-purpose ones. They tend to be simpler, with fewer methods that are deeper. They also provide a cleaner separation between classes, whereas special-purpose interfaces tend to leak information between classes. Making your modules somewhat general-purpose is one of the best ways to reduce overall system complexity.
 
-# Chapter 7. Different Layer, Different Abstractiono
+# Chapter 7. Different Layer, Different Abstraction
+
+Higher layer use the facilities provided by lower layers. In a well-designed system, each layer provides a different abstraction from the layers above and below it.
+
+If a system contains adjacent layers with similar abstraction, this is a read flag that suggests a problem with the class decomposition.
+
+> layer의 관계가 불분명하면 complexity가 증가한다. 인접한 layer가 같은 레벨의 abstraction을 제공하는경우
+
+## 7.1 Passing-through methods
+
+A pass-through method is one that does little except invoke another method. This typically indicates that there is not a clean division of responsibility between the classes.
+
+> 단순히 변수전달만하는 함수들
+
+Pass-through methods make classes shallower: they increase the interface complexity of the class, which adds complexity, but they don't increase the total functionality of the system.
+
+Pass-through methods indicate that there is confusion over the division of responsibility between classes.
+
+"Exactly which features and abstractions is each of these classes responsible for?"  You will probably notice that there is an overlap in responsibility between the classes.
+
+Teh solution is to refactor the classes so that each class has a distinct and coherent set of responsibilities.
+
+Solution: Expose the lower level class directly to the callers of the higher level class.
+
+![My helpful screenshot](/img/2021-06-28.jpg)
+
+## 7.2 When is interface duplication OK?
+
+Not always bad. The important thing is that each new method should contribute significant functionality. Pass-through methods are bad because they contribute no new functionality.
+
+One example where it's useful is 'dispatcher'. A dispatcher is a method that uses its arguments to select one of several other methods to invoke.
+
+> Dispatcher는 argument 를 판단해서 각각의 함수들을 호출해주는 함수이다. 
+
+```
+func MyDispatcher(code) {
+  if transport == 'php'
+    phpInterpreter(code)
+  if transport == 'javascript'
+    javascriptInterpreter(code)
+}
+````
+
+Another example is interfaces with multiple implementations.
+> SSD, Hard disk 처럼 구현은 다르지만 interface는 같은경우  
+
+## 7.3 Decorators
+
+The decorator design pattern is one that encourages API duplication across layers.
+
+A decorator object takes an existing object and extends its functionality. 기존것을 변경하지않고 확장하는것
+
+The motivation for decorators is to separate special-purpose extensions of a class from more generic core.
+
+> 작은 기능을 더하기 때문에 shallow할수밖에 없다.
+
+Before creating a decorator class:
+
+* Could you add the new functionality directly to the underlying class.
+* If the new functionality is specialized for a particular use case, would it make sense to merge it with the use case, rather than creating a separate class?
+* Could you merge the new functionality with an existing decorator, rather than creating a new decorator? - deeper decorator rather multiple shallow ones.
+
+## 7.5 Pass-through variables
+
+Pass-through variable is a variable that is pass down through a long chain of methods. The information is only needed by a low-level methods, but it is passed down through all the method on the path.
+
+Pass-through variables add complexity because they force all of the intermediate methods to be aware of their existence even though the methods have no use for the variables.
+
+- 이미 공유되고 있는 object가 있는가?
+- global variable에 넣기 (테스트할때 유용)
+
+- A context stores all of the application's global state. There is one context object per instance of the system. the context allows multiple instance of the system to context in a single progress. Each process has its own context. The problem is context itself a path-through variable.
+
+When a new object is created, the creating method retrieves the context reference from its object and passes it to the constructor for the new object. The context makes it easy to identify and manage the global state of the system, since it is all stored in one place. The context is also convenient for testing.
+
+Disadvantage: It may not be obvious why a particular variable is present, or where it is used. Contexts may also create thread-safety issues; make it immutable.
+
+# Chapter 8. Pull Complexity Downwards
 
 
 
 
+# Chapter 10. Define Errors Out Of Existence
 
-# Chapter 10. Define Erros Out Of Existence
+Developers often define exceptions without considering how they will be handled.
 
-Developers often define exceptions wwithout considering how they will be handled.
-
-The key is to reduce the number of places where xceptions must be handled; in many cases the semantics of operations can be modified so that the normal behavior handles all situations and here is no exceptional conditions to report.
+The key is to reduce the number of places where exceptions must be handled; in many cases the semantics of operations can be modified so that the normal behavior handles all situations and here is no exceptional conditions to report.
 
 구현을 수정함으로써 일반적인 처리루틴으로 예외적인 상황을 줄일수있다.
 
