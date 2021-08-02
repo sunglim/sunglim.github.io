@@ -1,0 +1,61 @@
+---
+layout: post
+title:  "Book review: A philosophy of software design (From Ch.11 to )"
+date:  2021-07-25 15:05:48 +0900 
+categories: jekyll update
+---
+
+# Ch.13 Comment Should Describe Things that Aren't Obvious from the Code
+
+... comments record this information so that developers who come along later can easily understand and modify the code. _Comments should describe things that aren't obvious from the code_.
+
+One of the most important reasons for comments is abstraction. (복잡하고 읽기어려운 코드보다 한줄의 코멘트)
+
+Developers should be able to understand the abstraction provided by a module without reading any code other than its externally visible declarations.
+
+## 13.1 Pick conventions
+
+If you are programming in an environment where there are no existing conventions to follow, try to adopt the conventions from some other language or project that is similar.
+
+Conventions serve two purposes. First, they ensure consistency, which makes comments easier to read and understand. Second, they help to ensure that you actually write comments. (코멘트가 있어야할곳에 코맨트가 있어야한다.)
+
+* Interface
+
+A common block that immediately precedes the declaration of a module such as a class, data structure, function, or method. The comment describes the module's interface.
+
+* Data structure member
+
+A comment next to the declaration of a field in a data structure, such as an instance variable or static variable for a class.
+
+* Implementation comment
+
+A comment inside the code of a method ooor function, which describes how to code works internally.
+
+* Cross-module comment
+
+A comment describing dependencies that cross module boundaries.
+
+Every class should have an interface comment, every class variable should have a comment, and every method should have an interface comment.
+
+## 13.2 Don't repeat the code
+
+Many comments are not particularly helpful. The most common reason is that the comments repeat the code.
+
+A first step towards writing good comments is to user different words in the comment from those in the name of the entity being described. Pick words for the comment that provide additional information about the meaning of the entity, rather than just repeating its name.
+
+## 13.3 Low-level comments add precision
+
+Comments augment the coode by providing information at a different level of detail.  코드와 같은 레벨이라면 코멘트의 의미가 없다.
+
+Precision is most useful when commenting variable declarations such as class instance variable, method arguments, and return value. 보통 변수명은 짧기때문에 자세히 코멘트를 달아주면 좋다.
+
+if a null value is permitted, what does it imply?
+
+if a variable refers to a resource that must eventually be freed or closed, who is responsible for freeing or closing it?
+
+The most common problem with comments for variable is that the comments are too vague. -> 그래서 자세히 써주는 코멘트가 필요하다.
+
+명사를 기준으로 코멘트를 달아라 Ture 는 ~~ false는 ~ 
+
+## 13.4 Higher-level comments enhance intuition
+
