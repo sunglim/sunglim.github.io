@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "English"
+date:  2021-08-12 09:12:14 +0900 
+categories: jekyll update
+---
+
+To this day = 지금까지도 = up to now, even now
+

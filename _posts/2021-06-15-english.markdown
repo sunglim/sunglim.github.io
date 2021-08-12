@@ -232,7 +232,45 @@ Disadvantage: It may not be obvious why a particular variable is present, or whe
 
 # Chapter 8. Pull Complexity Downwards
 
+# Chapter 9. Better Together Or Better Apart?
 
+Given two piece of functionality, should they be implemented together in the same place, or should their implemetations be separated?
+
+When deciding whether to combine or separate, the goal is to reduce the complexity of the system.
+
+The act of subdividing creates addtional complexity that was not present before subdivision:
+ * Some complexity comes just from the number of components: the more components, the harder to keep track of them all and the harder to find a desired component within the large collection. Subdivision usually results in more interfaces, and every new interface adds complexity.
+ * Subdivision can result in additional code to manage the components.
+ * Subdivision creates separation: Separation makes it harder for developers to see the components at the same time, or event to be aware of their existence. IF the components are truly independent, then separation is good: it allows the developer to focus on a single component at a time, without being destracted by the other components.
+ * Subdivision can result in duplication.
+
+ Indications that two pieces of code are related:
+ - They share information - 파라미터가 의존한다던지..
+ - They are used together
+ - They overlap conceptually - 예를들어 string maipulation하는 함수들
+ - It is hard to understand one of the pieces of code without looking at the other.
+
+9.1 Bring together if information is shared
+
+예를들어, parsing과 reading을 다른곳에서 할필요가있나? read하더라도 parsing의 대부분을 해야한다.
+
+9.2 Bring together if it will simplify the interface
+
+A모듈에서 B모듈로 전달한다면, 합쳐질수있다. 그리고 합쳐지면 사용자들이 A다음에 B를 호출해야하는걸 몰라도된다.
+
+9.3 Bring togehter to eliminate duplication
+
+If you find the same pattern of code repeated over and over, see if you can reorganize the code to eliminate the repetitioon. One approoach is to factor the repeated coode out.
+
+This appraoch is most effective if the repeated coode snippet is long and the replacement method has a simple signature. -> 한두줄이면 그냥 써라
+
+파라미터가 많아진다면 가치가 떨어질수있다.
+
+Another way to eliminate duplicaiton is to refactor the code so that the snippet in question only needs to be executed in one place. -> 예를들어 에러핸들링을 한 함수로
+
+9.4 Separate general-purpose and special-purpose code
+
+여러목적으로 구현이 되어있다면, General purpose 를 만들고 거기에 special purpose를 더한다.
 
 
 # Chapter 10. Define Errors Out Of Existence

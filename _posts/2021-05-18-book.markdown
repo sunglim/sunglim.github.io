@@ -108,21 +108,21 @@ Why strategic approach produces better designs and it actually cheapter than tat
 
 ## 3.1 Tactical programming
 
-In tactical programming, your main focus is to get someting working. However, tactiical programming makes it nearly impossible to produce good system design.
+In tactical programming, your main focus is to get someting working. However, tactical programming makes it nearly impossible to produce good system design.
 
-Tactical programming is 'sshort-sighted'. Planning for the future isn't a priority. You tell yourself that it's ok to add a bit of complexity or introduce a small kludge or two. This is howo system become complicated.
+Tactical programming is 'short-sighted'. Planning for the future isn't a priority. You tell yourself that it's ok to add a bit of complexity or introduce a small kludge or two. This is how system become complicated.
 
 ## 3.2 Strategic programming
 
-*Working code isn't enough.* It's not aacceptable to introduce unnecessary cmplexity in order to finish your current task faster.  The most imporotant thing is the long-term structure of the system.
+*Working code isn't enough.* It's not acceptable to introduce unnecessary complexity in order to finish your current task faster.  The most imporotant thing is the long-term structure of the system.
 
 Most of the code in any system is written by extending the existing code, so your most important job as a developer is to facilitate those future extension. Your primary goal must be to produce a great design which happen to work. This is strategic programming.
 
-Investment mindset.
+### Investment mindset.
 
 It will slow you down a bit in the short term. But they will speed you up in the long term.
 
-Some of the investment will be proactive! it's worth taking a little extra time to find a simple design for the new class rather than implementing the first idea that come to mind.
+Some of the investment will be proactive! It's worth taking a little extra time to find a simple design for the new class rather than implementing the first idea that come to mind.
 
 Other investment will be reactive. No matter how much you invest up front, there will inevitably be mistake in your design decision. (완벽할순 없다. watterfall은 안된다는걸 증명하지않았나?). Take a little time to fix it.
 
