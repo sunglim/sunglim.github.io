@@ -286,3 +286,26 @@ The key is to reduce the number of places where exceptions must be handled; in m
 Exception - any uncommon condition that alter the normal flow of control in a program.
 
 Exceptions can occur even without using a formal exception reporting mechanism, such as when a method returns a special valuue indiciating that it didn't complete its normal behavior.
+
+Large systems have to deal with many exceptional conditions, particularly if they are distributed or need to be fault-tolerant. Exception handling can account for a significant fraction of all the code in a system.
+
+Excepption handling code is inherently(태어날때부터) more difficult to write than normal-case code.
+
+When an exception occurs, 
+
+A) Move forward and complete the work in progress in spite of the exception.
+
+B) Abort the operation in progress and report the exception upwards.
+
+However, aborting can be complicated because the exception may have occurrred at a point where system state is inconsistent; the exception handling code must restoer consistency, such as by unwinding any changes made before the exception occurred. (exception 발생전으로 복구시켜야하잖아..)
+
+To prevent an unending cascade of exceptions, the developer must eventually find a way to handling exceptions without introducing more exceptions.
+
+Language support for exceptions tends to be verbose and clunky, which makes exception handling code hard to read. (일이 점점 커진다)
+
+It's difficult to ensure that exception handling code really works. Some exceptions, such as I/O errors, can't easily be generated in a test environment, so it's hard to test the code that handles them. Exceptions don't occur very often in running systems, so exception handling code rarely executes. Bugs can go undetected for a long time.
+
+When exception handling code fails, it's difficult to debug the problem, since it occurs so infrequently.
+
+10.2 Too many exceptions
+

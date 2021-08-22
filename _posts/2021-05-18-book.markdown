@@ -131,7 +131,7 @@ If you program stragically, you will continually make small improvements to the 
 
 ## 3.3 How much to invest?
 
-A huge up-front investment won't be effective. This is the waterfall method. The best approach is to make lots of small investment on a continual basis.
+A huge up-front investment won't be effective. This is the waterfall method. The best approach is to make lots of small investment on a continual basis.  
 
 10-20% small enough that itsn't imppact your schedule. but large enough to produce significat benefits over time.
 
