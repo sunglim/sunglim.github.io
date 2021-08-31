@@ -7,7 +7,9 @@ categories: jekyll update
 
 ## 식사: 이층양옥
 
-스테이크 파스타
+<b>스테이크, 파스타</b>
+
+![](./08-31-1.png)
 
 리뷰: https://blog.naver.com/banana814/222485775478
 
