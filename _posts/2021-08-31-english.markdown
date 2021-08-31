@@ -9,7 +9,7 @@ categories: jekyll update
 
 <b>스테이크, 파스타</b>
 
-![](/img/2021-08-31.png)
+![](/img/2021-08-31-1.png)
 
 리뷰: https://blog.naver.com/banana814/222485775478
 
