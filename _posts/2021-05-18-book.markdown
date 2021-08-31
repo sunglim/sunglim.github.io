@@ -43,7 +43,7 @@ The best way to use this book is in conjuction with code reviews. It's easier to
 
 # Chapter 2. The Nature of Complexity
 
-The ability to recognize complexity is a crucial design skill. It allows you to identify problem before you invest a lot of effoort in them, and it allows you oto o make good choises among alternatives. (ALTERNATIVES is the point. we don't need always the right answer.)
+The ability to recognize complexity is a crucial design skill. It allows you to identify problem before you invest a lot of effort in them, and it allows you to make good choises among alternatives. (ALTERNATIVES is the point. we don't need always the right answer.)
 
 ## 2.1 Complexity defined
 

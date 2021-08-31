@@ -62,3 +62,4 @@ The most common problem with comments for variable is that the comments are too 
 
 ## 13.4 Higher-level comments enhance intuition
 
+Ch 18. Code should be obvious

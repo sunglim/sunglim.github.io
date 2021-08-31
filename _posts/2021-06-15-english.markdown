@@ -309,3 +309,19 @@ When exception handling code fails, it's difficult to debug the problem, since i
 
 10.2 Too many exceptions
 
+Programmers exacerbate the problems realted to execption handling by defining unnecessary exceptionos.
+
+Most programmer are taught to detact and report errors it; they often interpret this to mean "the more errors detected, the better"
+
+This leads to an over-defensive style where anything that looks even a bit suspicious is rejected with an excepption. and it increases the complexity of the system.
+
+It's tempting to use exceptions to avoid dealing with difficult situations;
+However, if you are having trouble figuring out what to do for the particular situation, there's a good chance that the caller won't know what to do either.
+
+The exceptions thrown are part of its interface. -> The more exceptions, the more complex interface.
+
+Throwing exceptions is easy; handling them is hard.
+
+The best way is to reduce the number of places where exceptions have to be handled.
+
+This leads to 
