@@ -5,20 +5,28 @@ date:  2021-08-31 17:43:31 +0900
 categories: jekyll update
 ---
 
+## 코스
+
+![](/img/2021-08-31-0.png)
+
 ## 식사: 이층양옥
 
 <b>스테이크, 파스타</b>
 
-![](/img/2021-08-31-1.png)
+[리뷰: https://blog.naver.com/banana814/222485775478](https://blog.naver.com/banana814/222485775478)
 
-리뷰: https://blog.naver.com/banana814/222485775478
+![](/img/2021-08-31-1.png)
 
 ## 음료: 순라길비비
 
 예약이 안된다, 그 근처에 와인바 많음
 
-리뷰: https://blog.naver.com/emma4020/222415467119
+[리뷰: https://blog.naver.com/emma4020/222415467119](https://blog.naver.com/emma4020/222415467119)
+
+![](/img/2021-08-31-2.png)
 
 ## 산책: 낙산공원
 
 분위기 좋음
+
+![](/img/2021-08-31-3.png)
