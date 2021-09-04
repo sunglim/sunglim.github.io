@@ -1,0 +1,22 @@
+---
+layout: post
+title:  "Hello stranger?"
+date:  2021-09-01 09:38:53 +0900 
+categories: jekyll update
+---
+
+Having small talks -
+
+Yesterday my English teacher asked me if I often have small talks. 
+Unlikely American people, most Asians dont have a tendency to have small talk - especially with strangers. 
+
+Looking back, when strangers are too friendly to me, I would think this guy may want me to buy something, or this guy may be going to ask me to do something.
+
+---
+layout: post
+title:  "{title}"
+date:  2021-09-01 10:28:29 +0900 
+categories: jekyll update
+---
+
+{content}
