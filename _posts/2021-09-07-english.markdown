@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Diary (Randome)"
+date:  2021-09-07 09:58:18 +0900 
+categories: jekyll update
+---
+
+어깨에 힘을 풀면 당장이라도 눈물이 날것같다.
+
+밑줄쳐가며 울지말라던 당신이 단어하나하나에 박혀있다
+
+겨울같이 흔들린다
