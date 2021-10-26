@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Book review: Atomic Habits"
+title:  "Book review: Atomic Habits - Day 1"
 date:  2021-10-26 19:03:09 +0900 
 categories: jekyll update
 ---
@@ -12,3 +12,5 @@ Recently, one of my coworks recommended that I read a book, 'Atomic Habits'.
 The book is written by James Clear who is a speaker focusedon habits, decision making, and continous improvement.
 
 The subtitle of this book is 'An easy & proven way to build good habits & break bad ones'. If I have been struggling to build new good habits and had difficulties to break bad ones like playing games, then I really should have read this book.
+
+This book is composed of twenty chapters, and each chapter has approximately twenty pages. I read only the first chapter, yet felt this book was a must read book for me. So, I decided to read one chapter a day, summarize it, and post it on my instagram.
