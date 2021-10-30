@@ -5,7 +5,7 @@ date:  2021-10-29 19:25:57 +0900
 categories: jekyll update
 ---
 
-Day 3
+Book review: Atomic Habits - Day 3
 
 Chapter 2. How Your Habits Shape Your identity (and Vice Versa)
 

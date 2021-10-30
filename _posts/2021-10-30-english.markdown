@@ -1,0 +1,31 @@
+---
+layout: post
+title:  "Book review: Atomic Habits - Day 4"
+date:  2021-10-30 11:00:02 +0900 
+categories: jekyll update
+---
+
+Book review: Atomic Habits - Day 4
+
+Chapter 3. How to Build Better Habits in 4 Simple Steps
+
+
+* A habit is a behavior that has been repeated enough times to become automatic.
+
+* Try, fail, learn, try differently. With practice, the useless movements fade away and the useful actions get reinforced. That's a habit forming.
+
+* The ultimate purpose of habits is to solve the problems of life with as little energy and effort as possible.
+
+* Any habit can be broken down into a feedback loop that involves four steps: Cue, craving, response, and reward.
+
+* The cue triggers your brain to initiate a behavior. It's a bit of information that predicts a reward. It naturally leads to a craving. The response is the actual habit you perform which takes the form of a thought or an action. Finally, the response delivers a reward.
+
+* The Four Laws of Behavior Change are a simple set of rules we can use to build better habits
+ - (1) Make it obvious, (2) make it attractive, (3) make it easy, and (4) make it satisfying.
+ 
+
+-----
+
+My comment: Every habit falls into the category called 'The Four Laws of Behavior Change' meaning that we can build new habits or break bad habits as long as we can follow the law.
+
+The following chapters explain the details of how we can apply the law.
