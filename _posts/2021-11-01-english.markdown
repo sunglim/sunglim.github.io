@@ -1,0 +1,31 @@
+
+---
+layout: post
+title:  "Book review: Atomic Habits - Day 6"
+date:  2021-11-01 08:24:30 +0900 
+categories: jekyll update
+---
+
+Book review: Atomic Habits - Day 6
+
+Chapter 5. The Best Way to Start a New Habit
+
+* The 1st Law of Behavior Change is make it obvious.
+
+* Many people think they lack motivation when what they really lack is clarity. It is not always obvious when and where to take action. Some people spend their entire lives waiting for the time to be right to make an improvement.
+
+* Once an implementation intention has been set, you don't have to wait for inspiration to strike. Do I write a chapter today or not? When the moment of action occurs, there is not need to make a decision.
+
+* I will [Behavior] at [Time] in [Location]. e.g. Exercise. I will exercise for one hour at 5 p.m. in my local gym.
+
+* Habit stacking is a strategy you can use to pair a new habit with a current habit.
+
+* The habit stacking formula is "After [Current Habit], I will [New Habit]"
+
+----
+
+My new habits:
+
+I will [take a walk] at [9 p.m.] in my neighborhood
+
+After I take a shower at night, I will do the laundry.
