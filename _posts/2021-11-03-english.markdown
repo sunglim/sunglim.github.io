@@ -1,0 +1,20 @@
+
+---
+layout: post
+title:  "Book review: Atomic Habits - Day 8"
+date:  2021-11-03 13:11:55 +0900 
+categories: jekyll update
+---
+
+Book review: Atomic Habits - Day 8
+
+Chapter 7. The Secret to Self-Control
+
+요약: Self-control의 비밀은 나의 행동을 유발하는 것들을 제거 하라는것.
+
+예를들어 페이스북을 너무 많이 한다면 핸드폰이나 컴퓨터를 멀리한다.
+
+
+Here's the punch line: You can break a habit, but you're unlikely to forget it. Once the mental grooves of habit have been carved into your brain, they are nearly impossible to remove entirely - even if they go unused for quite a while. And that means that simply resisting temptation is an ineffective strategy. It is hard to maintain a Zen attitude in a life filled with interruptions. It takes too much energy. In the short-run, you can choose to overpower temptation. In the long-run, we become a product of the environment that we live in. To put it bluntly, I have never seen someone consistently stick to positive habits in a negative environment.
+
+A more reliable approach is to cut bad habits off at the source. One of the most practical ways to eliminate a bad habit is to reduce exposure to the cue that causes it.
