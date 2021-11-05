@@ -1,0 +1,19 @@
+
+---
+layout: post
+title:  "Book review: Atomic Habits - Day 11"
+date:  2021-11-06 15:47:34 +0900 
+categories: jekyll update
+---
+
+Book review: Atomic Habits - Day 11
+
+Chapter 10. How to Find and Fix the Causes of Your Bad Habits
+
+행동은 아무 이유없이 나오지않는다. 습관적으로 하는것이라 생각되던것도 과거에 그것을 통해 이룰수있었던것이 현재의 행동에 나타나는것이다. 페이스북을 하는것도 사람들과 관계를 맺고있다는것을 기대하기때문이다. 페이스북을 하는것보다 다른 좋은 습관을 통해서 사람들과 관계를 맺고있다는것을 만족시킬수 있다면 나쁜습관(페북중독)을 끊고 예를들어 운동모임(좋은습관)을 만들수있다.
+
+* Every behavior has a surface level craving and a deeper underlying motive
+
+* Your Habits are modern-day solutions to ancient desires.
+
+* Highlight the benefits of avoiding a bad habit to make it seem unattractive.

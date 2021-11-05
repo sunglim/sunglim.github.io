@@ -1,0 +1,23 @@
+
+---
+layout: post
+title:  "Book review: Atomic Habits - Day 12"
+date:  2021-11-08 16:40:46 +0900 
+categories: jekyll update
+---
+
+Book review: Atomic Habits - Day 12
+
+Chapter 12. The Law of Least Effort
+
+행동을 하는데 장애물이 없어야 쉽게 하게되고 습관을 만들수 있다. 예를들어 독서 습관을 만들고 싶으면 책이 근처에 있어야하고, 게임하는 습관을 없애고 싶으면 컴퓨터를 치워버린다.
+
+다음 행동을 하기 쉽게 환경을 만들어 놓는다. 요리 습관을 만들고 싶으면 밥먹고 설거지를 바로 해놓는다.
+
+* Create an environment where doing the right thing is as easy as possible.
+
+* Reduce the friction associated with good behaviors. When friction is low, habits are easy.
+
+* Increase the friction associated with bad behaviors. When friction is high, habits are difficult.
+
+* Prime your environment to make future actions easier.
