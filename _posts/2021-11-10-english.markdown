@@ -1,0 +1,23 @@
+
+---
+layout: post
+title:  "Book review: Atomic Habits - Day 14"
+date:  2021-11-10 16:56:38 +0900 
+categories: jekyll update
+---
+
+Book review: Atomic Habits - Day 14
+
+Chapter 14. How to Make Good Habits Inevitable and Bad Habits Impossible
+
+미래의 행동을 강제해버린다. 일찍 자는 습관을 기를려면 10시에 전기를 끊어버린다.
+즉 시스템 적으로 나쁜 습관을 못하도록 막아버리고, 시스템 적으로 좋은 습관을 할수있게 만들수있다.
+예를들어 7시에 알람을 울리는것도 시스템적으로 일찍 일어나도록 도와주는것이다.
+
+나같은 경우, 매일 10시에 영어수업을 잡아놓고 강제로 영어공부를 한다. inevitable하도록 만든것이다..
+
+* The ultimate way to lock in future behavior is to automate your habits.
+
+* Using technology to automate your habits is the most reliable and effective way to guarantee the right behavior.
+
+* Commitment devices are useful because they enable you to take advantage of good intentions before you can fall victim to temptation.

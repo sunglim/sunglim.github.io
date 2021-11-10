@@ -1,0 +1,23 @@
+
+---
+layout: post
+title:  "Book review: Atomic Habits - Day 13"
+date:  2021-11-09 13:56:09 +0900 
+categories: jekyll update
+---
+
+Book review: Atomic Habits - Day 13
+
+Chapter 13. How to Stop Procrastinating by Using the Two-Minute Rule
+
+습관을 만드는게 너무 어렵다. 그러면 딱 2분만 해보자. 운동을 딱 2분만해보자. 책을 딱 2분만 읽자
+
+2분만하더라도 routine을만드는것이고 그것이 나의 identity를 만드는 것이다.
+
+* Habits can be completed in a few seconds but continue to impact your behavior for minutes or hours afterward.
+
+* The Two-Minute Rule state, "When you start a new habit, it should take less than two minutes to do."
+
+* Standardize before you optimize. You can't improve a habit that doesn't exist.
+
+As you master the art of showing up, the first two minutes simply become a ritual at the beginning of a larger routine.
