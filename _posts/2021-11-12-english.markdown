@@ -1,0 +1,27 @@
+
+---
+layout: post
+title:  "Book review: Atomic Habits - Day 15"
+date:  2021-11-12 15:13:46 +0900 
+categories: jekyll update
+---
+
+Book review: Atomic Habits - Day 15
+
+Chapter 15. The Cardinal Rule of Behavior Change
+
+우리는 만족(보상)이 있는 행동을 하려한다. 손을 씻는것도 개운함을 느끼기위해서 하는것처럼.
+
+하지만 그것이 즉각적인 보상이 아니라면 하지않으려는 경향이 있는데, 예를 들어 1년후에 몸이 좋아지는것(보상)때문에 지금 운동을 하는게 쉽지않다.
+
+이 문제는 즉각적인 보상을 더해줌으로 해결할수있다.  1시간 운동을 지금 한다면 1년후 몸이 좋아졌을때 살 옷을 위해 돈을 적립한다던지..
+
+일반적으로 더 큰 보상은 즉각적인 보상이 아닌 훨씬 이후에 받는 보상이다.
+
+* We are not looking for any type of satisfaction. We are looking for immediate satisfaction.
+
+* Most people know that delaying gratification is the wise approach. They want the benefits of good habits: to be healty, productive, at peace. But these outcomes are seldom top-of-mind at the decisive moment.
+
+* The best way to do this is to add a little bit of immediate pleasure to the habits that pay off in the long-run.
+
+* Human brain evolved to prioritize immediate rewards over delayed rewards.

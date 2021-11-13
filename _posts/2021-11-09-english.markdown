@@ -21,3 +21,6 @@ Chapter 13. How to Stop Procrastinating by Using the Two-Minute Rule
 * Standardize before you optimize. You can't improve a habit that doesn't exist.
 
 As you master the art of showing up, the first two minutes simply become a ritual at the beginning of a larger routine.
+
+
+each component has owner 
