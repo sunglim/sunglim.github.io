@@ -1,0 +1,23 @@
+
+---
+layout: post
+title:  "Book review: Atomic Habits - Day 18"
+date:  2021-11-16 20:44:22 +0900 
+categories: jekyll update
+---
+
+Book review: Atomic Habits - Day 18
+
+Chapter 18. The Goldilocks Rule: How to Stay Motivated in Life and Work
+
+너무 쉽거나 너무 어려운걸 하면 금방 지루해지고 안하게 된다. 적절히 난의도를 높여서 도전하게되면 동기부여도되고 흥미를 잃지않을수 있다.
+
+지루함(Boredom)은 누구에게나 오는것이다. 프로와 아마추어의 차이점은 이를 어떻게 극복하고 꾸준히 하냐의 차이다.
+
+* The Goldilocks Rule states that humans experience peak motivation when working on tasks that are right on the edge of their current abilities.
+
+* The greatest threat to success is not failure but boredom.
+
+* Anyone can work hard when they feel motivated. It's the ability to keep going when work isn't exciting that make the difference.
+
+* Professionals stick to the schedule; amateurs let life get in the way.
