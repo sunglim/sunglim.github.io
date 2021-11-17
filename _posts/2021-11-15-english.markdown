@@ -1,14 +1,14 @@
 
 ---
 layout: post
-title:  "Book review: Atomic Habits - Day 17"
+title:  "Book review: Atomic Habits - Day 18"
 date:  2021-11-15 17:12:07 +0900 
 categories: jekyll update
 ---
 
-Book review: Atomic Habits - Day 17
+Book review: Atomic Habits - Day 18
 
-Chapter 17. The Truth About Talent (When Genes Matter and When They Don't)
+Chapter 18. The Truth About Talent (When Genes Matter and When They Don't)
 
 가장 재밌게 본 챕터이다. 요즘 내 얼굴에 입툭튀 때문에 왜 이렇게 생겼나 내 유전자는 왜 이러나 좌절했었는데..
 얼굴을 보는 분야에서는 내가 밀릴지 모르겠지만 과거 신체조건이 중요했던 조선시대(ㅋㅋ)에서는 내가 키도 크고 힘도 좋으니 유리하지않았을까 생각해본다.. 물론 지금이 조선시대는 아니다 다른 잘하는게 있겠지

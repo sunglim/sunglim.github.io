@@ -1,14 +1,14 @@
 
 ---
 layout: post
-title:  "Book review: Atomic Habits - Day 18"
+title:  "Book review: Atomic Habits - Day 19"
 date:  2021-11-16 20:44:22 +0900 
 categories: jekyll update
 ---
 
-Book review: Atomic Habits - Day 18
+Book review: Atomic Habits - Day 19
 
-Chapter 18. The Goldilocks Rule: How to Stay Motivated in Life and Work
+Chapter 19. The Goldilocks Rule: How to Stay Motivated in Life and Work
 
 너무 쉽거나 너무 어려운걸 하면 금방 지루해지고 안하게 된다. 적절히 난의도를 높여서 도전하게되면 동기부여도되고 흥미를 잃지않을수 있다.
 
