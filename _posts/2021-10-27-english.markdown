@@ -3,6 +3,9 @@ layout: post
 title:  "Book review: Atomic Habits - Day 2"
 date:  2021-10-27 23:02:43 +0900 
 categories: jekyll update
+tag:
+  - book
+  - atomic habits
 ---
 
 Day 2

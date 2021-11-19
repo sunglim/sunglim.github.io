@@ -3,6 +3,9 @@ layout: post
 title:  "Book review: Atomic Habits - Day 1"
 date:  2021-10-26 19:03:09 +0900 
 categories: jekyll update
+tag:
+  - book
+  - atomic habits
 ---
 
 ![](/img/atomichabit.jpg)
