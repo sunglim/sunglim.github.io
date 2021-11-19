@@ -1,0 +1,20 @@
+---
+layout: post
+title:  "Book review: Atomic Habits - Day 21"
+date:  2021-11-18 19:54:51 +0900 
+categories: jekyll update
+---
+
+Book review: Atomic Habits - Day 21
+
+Conclusion: The Secret to Results That Last
+
+아주 작은 변화가 내 인생을 바꿀 수 있을까? 그렇지 않을것이다.
+
+그렇다면, 작은 변화를 하나 더 한다면? 거기에 하나 더 또 더한다면? 작은변화가 쌓이면 전체 시스템을 바꾸게 된다.
+
+작은 변화가 큰 결과를 만드는것이 아니라 작은 결과가 쌓이고 그걸 멈추지않으면 큰 변화를 만들게된다... (진작 이렇게 말하지.. 낚였네)
+
+* The secret to getting results that last is to never stop making improvements.
+
+* That's the power of atomic habits. Tiny changes. Remarkable results.
