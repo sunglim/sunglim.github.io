@@ -10,7 +10,11 @@ tag:
 
 ![](/img/atomichabit.jpg)
 
-Recently, one of my coworkers recommended that I read a book, 'Atomic Habits'.
+Amazon link: https://www.amazon.com/dp/B07RFSSYBH/ref=cm_sw_em_r_mt_dp_GH35WZ6DQBR73Z7C6B9Y
+
+(I usually first google 'book name + github + ebook'. Developers loves books, they upload PDF or epub version on github)
+
+Recently, one of my coworkers recommended that I read a book, 'Atomic Habits'. It is one of best sellers in Amazon. As of today, it ranked at #7.
 
 The book is written by James Clear who is a speaker focused on habits, decision making, and continous improvement.
 
