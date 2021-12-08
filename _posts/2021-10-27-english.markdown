@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Book review: Atomic Habits - Day 2"
+title:  "Book review: Atomic Habits - Chapter 1. The Surpising Power of Atomic Habits"
 date:  2021-10-27 23:02:43 +0900 
 categories: jekyll update
 tag:

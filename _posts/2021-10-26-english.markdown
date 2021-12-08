@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Book review: Atomic Habits - Day 1"
+title:  "Book review: Atomic Habits - Introduction"
 date:  2021-10-26 19:03:09 +0900 
 categories: jekyll update
 tag:
