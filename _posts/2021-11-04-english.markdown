@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Book review: Atomic Habits - Day 9"
+title:  "Book review: Atomic Habits - Chapter 8. How to Make a Habit Irresistible"
 date:  2021-11-04 13:56:07 +0900 
 categories: jekyll update
 tag:
@@ -10,7 +10,7 @@ tag:
 
 Book review: Atomic Habits - Day 9
 
-Chapter 8. How to Make a Habit Irresistible
+# Chapter 8. How to Make a Habit Irresistible
 
 요약: 습관으로 얻는 attraction이 있어야한다.
 
@@ -18,7 +18,7 @@ Chapter 8. How to Make a Habit Irresistible
 
 결과를 기대를 하는것만으로도 도파닌이 분비된다.
 
-* The more attractive an oportunity is, the more likely it is to ecome habit-forming.
+* The more attractive an oportunity is, the more likely it is to become habit-forming.
 
 * It is the anticipation of a reward - not the fullfillment of it - that gets us to take action. The greater the anticipation, the greater the dopamine spike.
 
@@ -27,3 +27,5 @@ Chapter 8. How to Make a Habit Irresistible
 ----
 
 Make my habit rewardable,  습관을 통해서 어떤걸 얻을수있는지 생각하다보면 도파닌이 생성되고 더 하고 싶어진다.
+
+temptation bundling, 하기 싫은것과 하고싶은것을 묶어서 한다.

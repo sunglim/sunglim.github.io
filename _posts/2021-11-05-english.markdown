@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Book review: Atomic Habits - Day 10"
+title:  "Book review: Atomic Habits - Chapter 9. The Role of Family and Friends in Shaping Your Habits"
 date:  2021-11-05 09:17:49 +0900 
 categories: jekyll update
 tag:
@@ -10,7 +10,7 @@ tag:
 
 Book review: Atomic Habits - Day 10
 
-Chapter 9. The Role of Family and Friends in Shaping Your Habits
+# Chapter 9. The Role of Family and Friends in Shaping Your Habits
 
 우리는 주위사람들 - 가족, 친구, 회사, 모임 - 의 영향을 많이 받고 그들을 따라하게 된다. 가까운 사람을 따라하게되고, 더 많은 사람의 행동을 따라하고, 더 힘있는 사람을 따라하게된다.
 

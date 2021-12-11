@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Book review: Atomic Habits - Day 7"
+title:  "Book review: Atomic Habits - Chapter 6. Motivation Is Overrated; Environment often Matters More"
 date:  2021-11-02 07:13:28 +0900 
 categories: jekyll update
 tag:
@@ -9,9 +9,17 @@ tag:
 ---
 
 Book review: Atomic Habits - Day 7
-Chapter 6. Motivation Is Overrated; Environment often Matters More
+
+# Chapter 6. Motivation Is Overrated; Environment often Matters More
+
 * Make the cues of good habits obvious in your environment.
+
 * Gradually, your habits become associated not with a single trigger but with the entire context surrounding the behavior. The context becomes the cue.
+
 * It is easier to build new habits in a new environment because you are not fighting against old cues.
+
 * Create a separate space for work, study, exercise, entertainment, and cooking. The mantra I find useful is "one space, one use"
 
+---
+
+환경을 바꾸면 기존 습관들과 싸우지않아도 되기에 습관을 만들기 쉽다.

@@ -1,7 +1,7 @@
 
 ---
 layout: post
-title:  "Book review: Atomic Habits - Day 6"
+title:  "Book review: Atomic Habits - Chapter 5. The Best Way to Start a New Habit"
 date:  2021-11-01 08:24:30 +0900 
 categories: jekyll update
 tag:
@@ -11,7 +11,7 @@ tag:
 
 Book review: Atomic Habits - Day 6
 
-Chapter 5. The Best Way to Start a New Habit
+# Chapter 5. The Best Way to Start a New Habit
 
 * The 1st Law of Behavior Change is make it obvious.
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Book review: Atomic Habits - Day 5"
+title:  "Book review: Atomic Habits - Chapter 4. The Man Who Didn't Look Right"
 date:  2021-10-31 19:49:07 +0900 
 categories: jekyll update
 tag:
@@ -10,7 +10,7 @@ tag:
 
 Book review: Atomic Habits - Day 5
 
-Chapter 4. The Man Who Didn't Look Right
+# Chapter 4. The Man Who Didn't Look Right
 
 * With enough practice, your brain will pick up on the cues that predict certain outcomes without consciously thinking about it. Automatically, your brain encodes the lessons learned through experience. -> Can be trained.
 
@@ -18,13 +18,17 @@ Chapter 4. The Man Who Didn't Look Right
 
 * The process of behavior change always starts with awareness. You need to be aware of your habits before you can change them.
 
-* The more automatic a behavior becomes, the less likely we are to consciously think about it. And when we've done somethinga thousand times before, we begin to overlook things. - We assume that the next time will be just like the last. 
+* The more automatic a behavior becomes, the less likely we are to consciously think about it. And when we've done somethings thousand times before, we begin to overlook things. - We assume that the next time will be just like the last. 
 
 * Challenges in changing habits is maintaining awareness of what we are actually doing. We need a "point-and-call" system, a Habits Scorecard.
 
 * The Habits Scorecard is a simple exercise you can use to become more aware of your behavior.
 
 -----
+
+습관이되면 무의식적으로 기존에 하던대로 행동하게된다. 그것이 좋던 안좋던.
+
+의식적으로 내가 어떤 습관을 갖고 행동 하는지 돌아볼필요가 있다. 보통 내가 원하는 identity와 반대라면 좋지않은 습관이다.
 
 My Habit Scorecard
 
