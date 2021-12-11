@@ -10,7 +10,7 @@ tag:
 
 Day 2
 
-Chapter 1. The Surpising Power of Atomic Habits
+# Chapter 1. The Surpising Power of Atomic Habits
 
 If we make a small change a day for one year, it would be a huge impact. A small outcome in a short term doesn't matter. What matter is whether my habits are putting myself on the right track towarding success.
 

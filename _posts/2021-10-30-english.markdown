@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Book review: Atomic Habits - Day 4"
+title:  "Book review: Atomic Habits - How to Build Better Habits in 4 Simple Steps"
 date:  2021-10-30 11:00:02 +0900 
 categories: jekyll update
 tag:
@@ -10,8 +10,7 @@ tag:
 
 Book review: Atomic Habits - Day 4
 
-Chapter 3. How to Build Better Habits in 4 Simple Steps
-
+# Chapter 3. How to Build Better Habits in 4 Simple Steps
 
 * A habit is a behavior that has been repeated enough times to become automatic.
 
@@ -26,9 +25,12 @@ Chapter 3. How to Build Better Habits in 4 Simple Steps
 * The Four Laws of Behavior Change are a simple set of rules we can use to build better habits
  - (1) Make it obvious, (2) make it attractive, (3) make it easy, and (4) make it satisfying.
  
+* Habits are mental shortcuts learned from experience.
 
 -----
 
-My comment: Every habit falls into the category called 'The Four Laws of Behavior Change' meaning that we can build new habits or break bad habits as long as we can follow the law.
+My comment: Every habit falls into the category called 'The Four Laws of Behavior Change' meaning that we can build new habits if we can follow the law. Conversely, we can break bad habits if we go against the law.
 
 The following chapters explain the details of how we can apply the law.
+
+stumble: 헛딧다
