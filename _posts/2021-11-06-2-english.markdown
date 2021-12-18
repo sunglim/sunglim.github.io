@@ -10,9 +10,9 @@ tag:
 
 Book review: Atomic Habits - Day 11 - 2
 
-Chapter 11. Walk Slowly, but Never Backward
+# Chapter 11. Walk Slowly, but Never Backward
 
-행동이 반복되면 습관이 된다. 계획은 실제 행동보다 습관을 만드는데 중요하지않다. 습관을 만드는데는 신체에서도 변화가 필요하다 반복을 통해서 신체(뇌, 근육)이 변하여야 자동으로 그 행동이 나온다..  즉 초반엔 그냥 반복을 해야한다
+행동이 반복되면 습관이 된다. 계획은 실제 행동보다 습관을 만드는데 중요하지않다. 습관을 만드는데는 신체에서도 변화가 필요하다 반복을 통해서 신체(뇌, 근육)이 변하여야 자동으로 그 행동이 나온다. 많이 쓰는 부분이 더 발달하게된다. 즉 초반엔 그냥 반복을 해야한다, 시간의 문제가 아니다. 쉬워야 반복도 하게된다. Make it easy.
 
 * The most effective form of learning is practice, not planning.
 
