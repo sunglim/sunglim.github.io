@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Book review: Atomic Habits - Day 16"
+title:  "Book review: Atomic Habits - Chapter 16. How to Stick with Good Habits Every Day"
 date:  2021-11-13 13:41:51 +0900 
 categories: jekyll update
 tag:
@@ -10,7 +10,7 @@ tag:
 
 Book review: Atomic Habits - Day 16
 
-Chapter 16. How to Stick with Good Habits Every Day
+# Chapter 16. How to Stick with Good Habits Every Day
 
 시각적으로 보이는 진행상황이 내 행동을 계속하게 만든다. 페이스북이나 인스타에 이 책을 읽으면서 요약을 적는것도 그 이유이다. 내가 얼마나 책을 읽었는지 진행상황을 시각적으로 나타내고, 또 자극받아서 계속 읽을수 있게 하는 동기부여도 된다.
 
@@ -18,9 +18,11 @@ Habit tracker를 만들어서 내 습관이 잘 진행되고 있는지 확인하
  
 목표는 간단하다 never break the chain. 빼먹지 않고 하는것이다.
 
-하지만 기록(habit tracking)하는게 만능은 아니다 기록하는것에 집착하면 삶이 피곤해진다. 우리 삶을 측정하는것만으로는 판단할수 없으니까.
+하지만 기록(habit tracking)하는게 만능은 아니다 기록하는것에 집착하면 삶이 피곤해진다. 우리 삶을 측정하는것만으로는 판단할수 없으니까. measure하는 방법을 바꿔보면 measure만을 위한 행동을 방지할수 있다.
 
 습관을 이어갈수 없을때: 한번은 괜찮지만 두번은 안된다. 하루는 바쁘거나 몸이 안좋거나 해서 안할수 있지만 다음날까지 이어진다면 습관이 깨지는것이다. 잘 안되더라도 일단 행동에 옮겨야한다. 운동을 한다면 운동을 5분만이라도 해서 rail에 벗어나서는 안된다.
+
+Habit tracking provides visual proof of your hard work.
 
 * Habit tracking also keeps you honest.
 

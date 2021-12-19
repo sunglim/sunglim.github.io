@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Book review: Atomic Habits - Day 15"
+title:  "Book review: Atomic Habits - Chapter 15. The Cardinal Rule of Behavior Change"
 date:  2021-11-12 15:13:46 +0900 
 categories: jekyll update
 tag:

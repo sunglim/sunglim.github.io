@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Book review: Atomic Habits - Day 17"
+title:  "Book review: Atomic Habits - Chapter 17. How an Accountability Partner Can Change Everything"
 date:  2021-11-14 13:41:51 +0900 
 categories: jekyll update
 tag:
@@ -8,9 +8,11 @@ tag:
   - atomic habits
 ---
 
-Chapter 17. How an Accountability Partner Can Change Everything
+# Chapter 17. How an Accountability Partner Can Change Everything
 
 Habit contract - bad habit을 하면 벌금을 내는 방식으로 나쁜 습관을 고칠수 있다.
+
+내 행동에 대해 immediate pain을 주면 안하게 된다.
 
 * We are less likely to repeat a bad habit if it is painful or unsatisfying.
 
