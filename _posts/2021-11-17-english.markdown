@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Book review: Atomic Habits - Day 20"
+title:  "Book review: Atomic Habits - Chapter 20. The Downside of Creating Good Habits"
 date:  2021-11-17 16:55:09 +0900 
 categories: jekyll update
 tag:
@@ -10,7 +10,7 @@ tag:
 
 Book review: Atomic Habits - Day 20
 
-Chapter 20. The Downside of Creating Good Habits
+# Chapter 20. The Downside of Creating Good Habits
 
 습관이 되면 그 행동을 할때 비판적인 생각을 하지않는다는것이다. 즉 발전이 없다.
 
