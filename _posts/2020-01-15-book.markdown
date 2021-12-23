@@ -1,8 +1,12 @@
 ---
 layout: post
-title:  "투자의 네 기둥 memo"
+title:  "Memo: 투자의 네 기둥"
 date:  2020-01-15 12:18:48 +0900 
 categories: jekyll update
+tag:
+  - book
+  - investment
+  - Four Pillars of Investing / 투자의 네 기둥
 ---
 
 ## 투자의 네 기둥
@@ -54,6 +58,7 @@ FRB: 연방준비제도이사회
 
 ### 이상과열: 광기의 역사
  인구 + 노동생산성의 격차 -> GDP의 차이 (동남아가 유력)
+
 #### 거품이 만들어지기 위한 네 가지 조건
  * 중대한 기술 혁명 또는 금융시장 관행의 대변혁
  * 풍부한 유동성, 즉 신용의 팽창
