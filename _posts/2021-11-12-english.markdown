@@ -10,7 +10,7 @@ tag:
 
 Book review: Atomic Habits - Day 15
 
-Chapter 15. The Cardinal Rule of Behavior Change
+# Chapter 15. The Cardinal Rule of Behavior Change
 
 우리는 만족(보상)이 있는 행동을 하려한다. 손을 씻는것도 개운함을 느끼기위해서 하는것처럼.
 

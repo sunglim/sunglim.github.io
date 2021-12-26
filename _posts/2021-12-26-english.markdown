@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "Book review: Keep sharp - Build a Better Brain at Any Age. Ch.1 What Makes You You"
+date:  2021-12-26 15:08:50 +0900 
+categories: jekyll update
+
+sag:
+  - book
+  - keep sharp
+---
+
+Book review: Keep sharp
+
+# Chapter 1. What Makes You You
+
+
