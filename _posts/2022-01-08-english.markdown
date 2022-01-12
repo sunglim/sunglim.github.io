@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Ch.7 Food for Thought"
+date:  2022-01-08 15:04:59 +0900 
+categories: jekyll update
+---
+
+음식에 대해 의사와 상의하지않는다.
+
+no matter where you live or what your daily diet is like, avoiding entire food groups or restricting certain foods under the thinking you can game your way into good health is not an ideal approach.
+It might work for a while, but it could also backfire and hasten your death.
+
