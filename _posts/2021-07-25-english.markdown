@@ -3,7 +3,33 @@ layout: post
 title:  "Book review: A philosophy of software design (From Ch.11 to )"
 date:  2021-07-25 15:05:48 +0900 
 categories: jekyll update
+tag:
+  - book
+  - software
+  - software design
 ---
+
+# Ch.11 Design it Twice
+
+It's unlikely that your first thoughts about how to structure a module or system will produce the best design. You'll end up with a much better result if you consider multiple options for each major esign decision: *Design it twice*
+
+Even if you are certain that there is only one reasonable approach, consider a second esign anyway, no matter how bad you think it will be.
+
+Make a list of the procs and cons of each one.
+
+* Does one alternative have a simpler interface than another?
+
+* Is one interface more general-purpose than another?
+
+* Does one interface enable a more efficient implmentation than another?
+
+Or you may discover that you cna combine features of multiple alternatives into a new design that is better than any of the original choices.
+
+Designing it twice does not need to take a lot of extra time. You may not need more than an hour or two to consider alternatives. This is a small amount of time compared to the days or weeks you will spend implmeneting the class.
+
+No-one is good enough to get it right with their first try.
+
+The design-it-twice approach not only improves your designs, but it also improves your design skills. The process of devising and comparing multiple approaches will teach you about the factors that make designs better or worse.
 
 # Ch.12 Why Write Comments? The Four Execuses
 
