@@ -15,13 +15,15 @@ tag:
 
 Problem decomposition: How to take a complex problem and divide it up into piece that can be solved indivisually.
 
+I have wondered whether software design can be taught, and I have hypothesized that design skill is what separates great programmers from average ones. (so he made a class, and teach software design)
+
 Students learn best by writing code, making mistakes, and seeting how their mitakes and subsequent fixes related to the principles.
 
 The overall goal is to reduce complexity.
 
 # Chapter 1. Introduction (It's all about complexity)
 
-All programming requires is a create mind and the ability to organize your thoughts. If you can visualize a system, you can probably implement it in a computer program. The limitation is our ability to understand the system.
+All programming requires is a create mind and the ability to organize your thoughts. If you can visualize a system, you can probably implement it in a computer program. This means that the greatest limitation in writing software is our ability to understand the systems we are creating. (이해하기 쉽게 만들어라)
 
 Complexity will still increase over time, in spite of our best effrots, but simpler design allow us to build larger and more powerful systems before complexity becomes overwhelming.
 
@@ -35,7 +37,9 @@ For instance, Complexity can be reduced by eliminating special cases or using id
 
 Relatively indepent of each other. so that a program can work on one module without having to understand the detail of other modules.
 
-Waterfall model rarely works well for software. -> Scrum
+Waterfall model rarely works well for software. -> Unlike building a bridge, software systems are intrinsically more complex than physical system. It isn't possible to visualize the design for a large system. -> Initial design will have many problems. -> Agile development.
+
+As a software developer, you should always be on the lookout for opportunities to improve the design of the system you are working on.
 
 ## 1.1 How to use this book
 

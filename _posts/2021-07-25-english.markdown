@@ -33,6 +33,25 @@ The design-it-twice approach not only improves your designs, but it also improve
 
 # Ch.12 Why Write Comments? The Four Execuses
 
+Documentation also plays an important role in abstraction; without comments, you can't hide complexity. Finally, the process of writing comments, if done correctly, will actually improve a system's design. -> comments can hide complexity
+
+- Good comments can make a big difference in the overall quality of software
+- It isn't hard to write good comments
+- Writing comments can actually be fun
+
+## 12.1 Good code is self-documenting
+
+There is still a significant amount of design information that cna't be represented in code.
+
+Reading code is time-consuming and painful. If the method does anything nontrivial, you wil break it up into several smaller methods. This will result in a large number of shallow methods.
+
+To understand the behavior of top-level method, readers will probably need to understand the behaviors of the nested methods.
+
+* If users must read the code of a method in order to use it, then there is no abstraction; *
+
+## 12.2 I don't have time to write comments
+
+...
 
 # Ch.13 Comment Should Describe Things that Aren't Obvious from the Code
 
