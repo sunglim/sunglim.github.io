@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Book review: A philosophy of software design (From Ch.1 to Ch.4)"
-date:  2021-05-18 18:49:10 +0900 
+date:  2022-01-18 18:49:10 +0900
 categories: jekyll update
 tag:
   - book
@@ -47,50 +47,56 @@ The best way to use this book is in conjuction with code reviews. It's easier to
 
 # Chapter 2. The Nature of Complexity
 
-The ability to recognize complexity is a crucial design skill. It allows you to identify problem before you invest a lot of effort in them, and it allows you to make good choises among alternatives. (ALTERNATIVES is the point. we don't need always the right answer.)
+The ability to recognize complexity is a crucial design skill. It allows you to identify problem before you invest a lot of effort in them, and it allows you to make good choises among alternatives. (ALTERNATIVES is the point. we don't always need the right answer.)
 
 ## 2.1 Complexity defined
 
 *Complexity is anything related to the structure of a software system that makes it hard to understand and modify the system.*
 
-For example, it takes a lot of effort to implement a small improvement. it might not be clear which parts of the system must be modified to make the improvement; if it is easy to understand and modify, then it is simple.
+For example, it might be hard to understand how a piece of code works; it takes a lot of effort to implement a small improvement. it might not be clear which parts of the system must be modified to make the improvement.
+If a software system is hard to understand and modify, then it is complicated; if it is easy to understand and modify, then it is simple.
 
 You can also think of complexity in terms of cost and benefits.
 
 People often use the word 'complex' to describe large systems with sophisticated feature, but if such a system is easy to work on, then, it is not complex. It is also possible for a small and unsopphisticated system to be quite complex.
 
-If a system has a few parts that are very complicated, but those parts almost never need to be touched, then they don't have much impact on the overall complexity of the system.
+Complexity is determined by the activities that are most common. If a system has a few parts that are very complicated, but those parts almost never need to be touched, then they don't have much impact on overall complexity of the system.
 
-If you write a piece of code and it seems simple to you, but other people think it is complex, then it is complex.
+* Complexity is more apparent to reader than writers. If you write a piece of code and it seems simple to you, but other people think it is complex, then it is complex. 
 
 ## 2.2 Symptoms of complexity
 
-### Change amplification(확장)
+### Change amplification(변경확장)
 
-A seemingly simpple change requires code modificationis in many different places. One of the goals of good esign is to reduce the amount of code that is affected by each design decisioon, so design changes don't require very many code modifications.
+A seemingly simple change requires code modificationis in many different places. One of the goals of good design is to reduce the amount of code that is affected by each design decisioon, so design changes don't require very many code modifications.
 
-### Cognitive load(인지부화)
+### Cognitive load(인지 부하)
 
-How much a developer needs to know in order to complete a task.
-
+How much a developer needs to know in order to complete a task. A higher cognitive load means that developers have to spend more time learning the required information, and there is a greater risk of bugs because they have missed something important.
+Complexity can not be measured by lines of code. This view ignores the costs associated with cognitive load.
 Sometimes an approach that requires more lines of code is actually simpler, because it reduces congnitive load.
 
 ### Unknown unknowns
 
-It is not obvious which pieces of code must be modified to complete a task.
+It is not obvious which pieces of code must be modified to complete a task, or what information a developer must have to carry out the task successfully.
+
 It is the worst. It hides bugs. Unknown unknown means that there is something you need to know, but there is no way for you to find out what it is, or even whether there is an issue. You won't find out about it until bugs appear after you make a change.
 
-One of the most important goals of good design is for a system to be _obvious_.
+One of the most important goals of good design is for a system to be _obvious_. This is the opposite of high cognitive load and unknown unknowns. In an obvious system, a developer can quickly understand how the existing code works and what is required to make a change.
 
 ## 2.3 Causes of complexity
+
+Complexity is caused by two things: dependencies and obscurity.
 
 A dependency exists when a given piece of code can not be understood and modified in isolation.
 
 Dependencies are a fundamental part of software and can't be completely eliminated. One of the goals of software design is to reduce the number of dependencies and to make the deppendencies that remain as simle and obivous as possible.
 
-Obscurity(모호함) occurs when import imformation is not obvious. A simple example is a variable naame that is so generic.
+Obscurity(모호함) occurs when import imformation is not obvious. A simple example is a variable name that is so generic.
 
 Inconsistency is also a major contributor to obscurity.
+
+In many cases, obscurity comes about because of inadequate documentation; However, obscurity is also a design issue. If a system has a clean and obvious design, then it will need less documentation.
 
 The best way to reduce obscurity is by simplifying the system design. Dependencies lead to change amplification and a high cognitive load.
 
@@ -102,7 +108,7 @@ The incremental nature of complexity make it hard to control. It's easy to convi
 
 Once complexity has accumulated, it's hard too eliminated. Since fixing a single dependency or obscurity will not by itself. Making a big difference. You must adopt a 'Zero tolerance' philosophy.
 
-## 2.5 Conculusiono
+## 2.5 Conculusion
 
 Complexity comes from an accumulation of dependencies and obscurities.
 
