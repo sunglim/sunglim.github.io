@@ -173,15 +173,15 @@ A system is decomposed(분해되다) into a collection of modules that are relat
 
 Unfortunately, this ideal is not achievable. The goal of modular design is to minimize the dependencies between modules.
 
-The interface describes what the module does but not how it does it. It consist of everything that a developer working in a different module must know in order to use the given module.
+The interface describes what the module does but not how it does it. It consists of everything that a developer working in a different module must know in order to use the given module.
 
-The best modules are those whose interfaces are much simpler than implementation. First, a simple interface minimize the complexity that a module imposes(강요하다) on a rest of the system. Second, if a module is modified in a way that does not change its interface, then no other module will be affected by the modification. (인터페이스가 바뀌지않은 상태에서 구현이 바뀐다고 다른 모듈의 변경을 강요해서는 안된다.)
+The best modules are those whose interfaces are much simpler than implementation. First, a simple interface minimizes the complexity that a module imposes(강요하다) on the rest of the system. Second, if a module is modified in a way that does not change its interface, then no other module will be affected by the modification. (인터페이스가 바뀌지않은 상태에서 구현이 바뀐다고 다른 모듈의 변경을 강요해서는 안된다.)
 
 ## 4.2 What's in an interface
 
 Formal parts: specified explicitly in the code.
 
-Informal elements: not specified in a way in the code. 예를들어, A interface를 호출하기전에 B인터페이스를 먼저 호출해야하는 것. those can be described using comments, and progrramming language cannot ensure that the descriptionoo is complete or accurate.
+Informal elements: not specified in a way in the code. 예를들어, A interface를 호출하기전에 B인터페이스를 먼저 호출해야하는 것. those can be described using comments, and programming language cannot ensure that the description is complete or accurate.
 
 ## 4.3 Abstractions
 
@@ -189,7 +189,7 @@ An abstraction is a simplified view of an entity, which omits unimportant detail
 
 A detail can be omitted from an abstraction if it is unimportant.
 
-An important can go wrong in two ways. First, It can include details that are not really impprotant. It increase 'cognitive load'. Second error is when an abstract omits details that really are important. This result in 'obscurity'.
+An important can go wrong in two ways. First, It can include details that are not really important. It increases 'cognitive load'. The second error is when an abstract omits details that really are important. This results in 'obscurity'.
 
 An abstract that omits important details is a 'false abstraction'.
 
@@ -197,13 +197,18 @@ The key to designing abstraction is to understand what is important.
 
 ## 4.4 Deep modules
 
-'Deep' = powerful functionality yet have simple interfaces.
+The best modules are those that provide powerful functionality yet have simple interfaces. Use the term 'deep' to describe such modules.
+
+The best modules are deep: they have a lot of functionality hidden behind a simple interface. A deep module is a good abstraction because only a small fraction of its internal complexity is visible to its users.
 
 Module depth is a way of thinking about cost versus benefit. The benefit provided by a module is its functionality. The cost of a module is its interface.
 
+(인터페이스를 줄여야한다)
+
 ## 4.5 Shallow modules
 
-Shallow module is one whoose interface is relatively complex in comparision to the functionality that it provide they don't provide help much in managing complexity.
+Shallow module is one whose interface is relatively complex in comparison to the functionality that it provides. They don't provide help much in managing complexity.
+Small modules tend to be shallow.
 
 ## 4.6 Classitis
 
@@ -211,4 +216,10 @@ Shallow module is one whoose interface is relatively complex in comparision to t
 
 'classes should be small' approach is a syndrome called 'classitis'.
 
-Classitis may result in classes that are indivisually simple, but it increase the complexity of the overall system.
+Classitis may result in classes that are individually simple, but it increases the complexity of the overall system.
+
+## 4.8 Conclusion
+
+By separating the interface of a module from its implementation. we can hide the complexity of the implementation from the rest of the system.
+
+The most important issue in designing classes and other modules is to make them deep, so that they have simple interfaces from the common use cases, yet still provide significant functionality.
