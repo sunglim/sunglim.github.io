@@ -9,8 +9,6 @@ tag:
 
 * My Mac
 
-* Google TV
-
 * Power Supplier for Mac, for iphone
 
 * Airpod
@@ -20,3 +18,5 @@ tag:
 * 로션
 
 * shower ball
+
+* earplug, eyeplug 
