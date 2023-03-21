@@ -24,6 +24,14 @@ Dockerfile:1 DL3007 warning: Using latest is prone to errors if the image will e
 > hadolint --ignore DL3007 Dockerfile
 ```
 
+## Configures
+Use configurtion files .hadolint.yaml
+```
+ignored:
+  - DL3007
+  - SC1010
+```
+
 ## VSCode extension
 
 There is an official hadolint extension. 
