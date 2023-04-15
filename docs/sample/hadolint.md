@@ -4,6 +4,13 @@ Hadolint is Dockerfile linter, validate inline bash, written in Haskell
 
 > It wasn't made recently, it was born in 2016.
 
+## Agenda
+
+* Lint Dockerfile on local
+* Configure hadolint to ignore speicific rules
+* Hadolint in Hana Cloud
+
+
 ## Haskell Dockerfile Linter
 
 A smarter Dockerfile linter that helps you build [best practice](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/) Docker images. The linter parses the Dockerfile into an AST and performs rules on top of the AST. It stands on the shoulders of [ShellCheck](https://github.com/koalaman/shellcheck) to lint the Bash code inside RUN instructions.
