@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Study: How to Write Go Code"
+date:  2023-07-02 19:17:41 +0900 
+categories: jekyll update
+---
+
+I have been using Golang without reading any books or documents. It's been more than 5 years, I felt I should learn Golang deply.
+
+The first document is [How to Write Go Code](https://go.dev/doc/code).
+
+

@@ -1,0 +1,76 @@
+---
+layout: post
+title:  "[BOOK REVIEW] Intelligent investor chapter 20. Margin of safety"
+date:  2024-03-30 16:19:19 +0800 
+categories: jekyll update
+---
+
+# Chapter 20. Margin of safety
+
+"This too will pass." is "MARGINE OF SAFETY". Protects the investor against loss or discomfiture in the event of some future decline.
+
+Rendering unnecessary an accurate estimate of future.
+
+
+
+The philosophy of investment in growth stocks parallels in part and in part contravenes the margin-of-safety principle. The growth-stock buyer relies on an expected earning power that is greater than the average shown in the past. Thus he may be said to substitute these expected earnings for the past record in calculating his margin of safety. In investment theory there is no reason why carefully estimated future earnings should be a less reliable guide than the bare record of the past; in fact, security analysis is coming more and more to prefer a competently executed evaluation of the future. Thus the growth-stock approach may supply as dependable a margin of safety as is found in the ordinary investment—provided the calculation of the future is conservatively made, and provided it shows a satisfactory margin in relation to the price paid.
+
+
+성장주 투자자는 과거성장률에 의존한다. 그것을 안전마진이라 볼수있다. 미래에 대한 계산이 보수적으로 이뤄지고 만족스러운 마진이라면 dependable a margin of safety라 할수있다.
+
+
+
+In the ordinary common stock, bought for investment under normal conditions, the margin of safety lies in an expected earning power considerably above the going rate for bonds. In former editions we elucidated this point with the following figures:
+Assume in a typical case that the earning power is 9% on the price and that the bond rate is 4%; then the stockbuyer will have an average annual margin of 5% accruing in his favor. Some of the excess is paid to him in the dividend rate; even though spent by him, it enters into his overall investment result. The undistributed balance is reinvested in the business for his account. In many cases such reinvested earnings fail to add commensurately to the earning power and value of his stock. (That is why the market has a stubborn habit of valuing earnings disbursed in dividends more generously than the portion retained in the business.)* But, if the picture is viewed as a whole, there is a reasonably close connection between the growth of corporate surpluses through reinvested earnings and the growth of corporate values.
+
+채권수익률이 4%이고 주식이 9%라면 5%의 마진을 얻는다.
+
+Over a ten-year period the typical excess of stock earning power over bond interest may aggregate 50% of the price paid. This figure is sufficient to provide a very real margin of safety—which, under favorable conditions, will prevent or minimize a loss. If such a margin is present in each of a diversified list of twenty or more stocks, the probability of a favorable result under “fairly normal conditions” becomes very large. That is why the policy of investing in representative common stocks does not require high qualities of insight and foresight to work out successfully. If the purchases are made at the average level of the market over a span of years, the prices paid should carry with them assurance of an adequate margin of safety. The danger to investors lies in concentrating their purchases in the upper levels of the market, or in buying nonrepresentative common stocks that carry more than average risk of diminished earning power.
+
+
+10년물 채권수익률의 2배이면 margin of safety.  위험은 시장이 비쌀때 사거나, 대표성이 없는 종목을 사는것이다.
+
+As we see it, the whole problem of common-stock investment under 1972 conditions lies in the fact that “in a typical case” the earning power is now much less than 9% on the price paid.* Let us assume that by concentrating somewhat on the low-multiplier issues among the large companies a defensive investor may now acquire equities at 12 times recent earnings—i.e., with an earnings return of 8.33% on cost. He may obtain a dividend yield of about 4%, and he will have 4.33% of his cost reinvested in the business for his account. On this basis, the excess of stock earning power over bond interest over a ten-year basis would still be too small to constitute an adequate margin of safety. For that reason we feel that there are real risks now even in a diversified list of sound common stocks. 
+
+1972에 문제는 일반주를 매수할때 수익력이 9%보다 훨씬 낮았다는것이다.  9%를 기대하는데, 12배 per주식을 산다면. 8.33%리턴을 기대하는것이다. 위험이 있다.
+3.5% 7%를 기대해야하는데, 삼성전자per은 5%이다. margin of safety가 아니다.
+
+The risks may be fully offset by the profit possibilities of the list; and indeed the investor may have no choice but to incur them—for otherwise he may run an even greater risk of holding only fixed claims payable in steadily depreciating dollars.
+
+달러만 들고있다면 그것도 위험하다 인플레이션때문에..
+
+Nonetheless the investor would do well to recognize, and to accept as philosophically as he can, that the old package of good profit possibilities combined with small ultimate risk is no longer available to him.*
+
+Good profit과 small risk는 없다.
+
+However, the risk of paying too high a price for good-quality stocks—while a real one—is not the chief hazard confronting the average buyer of securities. Observation over many years has taught us that the chief losses to investors come from the purchase of low-quality securities at times of favorable business conditions.
+
+좋은 주식을 비싸게 사는건 큰 문제가 아니다. 회사가 잘나갈때 품질이 낮은 주식을 사는데서 위험은 발생한다.
+
+The purchasers view the current good earnings as equivalent to “earning power” and assume that prosperity is synonymous with safety.
+
+구매자 시각에서 현재의 좋은 수익은 earning power로 보이고 safe하다고 느낄수있다.
+
+It is in those years that bonds and preferred stocks of inferior grade can be sold to the public at a price around par, because they carry a little higher income return or a deceptively attractive conversion privilege. It is then, also, that common stocks of obscure companies can be floated at prices far above the tangible investment, on the strength of two or three years of excellent growth.
+
+대중에게 그런 안좋은 주식이 팔릴수있다. 왜냐면 그들은 약간 높은 수익률이나 attractive할수있다. 그래서 잘 모르는(obsecure)회사들이 매우 비싸게 팔릴수있고, 2~3년간 매우 높은 성장률에 의해서.
+
+These securities do not offer an adequate margin of safety in any admissible sense of the term. Coverage of interest charges and preferred dividends must be tested over a number of years, including preferably a period of subnormal business such as in 1970–71. The same is ordinarily true of common-stock earnings if they are to qualify as indicators of earning power. Thus it follows that most of the fair-weather investments, acquired at fair-weather prices, are destined to suffer disturbing price declines when the horizon clouds over—and often sooner than that. Nor can the investor count with confidence on an eventual recovery—although this does come about in some proportion of the cases—for he has never had a real safety margin to tide him through adversity.
+
+
+
+margin-of-safety idea becomes much more evident when we apply it to the field of undervalued or bargain securities. We have here, by definition, a favorable difference between price on the one hand and indicated or appraised value on the other. That difference is the safety margin. It is available for absorbing the effect of miscalculations or worse than average luck. The buyer of bargain issues places particular emphasis on the ability of the investment to withstand adverse developments. For in most such cases he has no real enthusiasm about the company’s prospects. True, if the prospects are definitely bad the investor will prefer to avoid the security no matter how low the price. But the field of undervalued issues is drawn from the many concerns—perhaps a majority of the total—for which the future appears neither distinctly promising nor distinctly unpromising. If these are bought on a bargain basis, even a moderate decline in the earning power need not prevent the investment from showing satisfactory results. The margin of safety will then have served its proper purpose.
+
+대부분 불확실한 걱정으로 저평가 된다.
+
+Theory of Diversification
+
+There is a close logical connection between the concept of a safety margin and the principle of diversification. One is correlative with the other. Even with a margin in the investor’s favor, an individual security may work out badly. For the margin guarantees only that he has a better chance for profit than for loss—not that loss is impossible. But as the number of such commitments is increased the more certain does it become that the aggregate of the profits will exceed the aggregate of the losses. That is the simple basis of the insurance-underwriting business. Diversification is an established tenet of conservative investment. By accepting it so universally, investors are really demonstrating their acceptance of the margin-of-safety principle, to which diversification is the companion. This point may be made more colorful by a reference to the arithmetic of roulette. If a man bets $1 on a single number, he is paid $35 profit when he wins—but the chances are 37 to 1 that he will lose. He has a “negative margin of safety.” In his case diversification is foolish. The more numbers he bets on, the smaller his chance of ending with a profit. If he regularly bets $1 on every number (including 0 and 00), he is certain to lose $2 on each turn of the wheel. But suppose the winner received $39 profit instead of $35. Then he would have a small but important margin of safety. Therefore, the more numbers he wagers on, the better his chance of gain. And he could be certain of winning $2 on every spin by simply betting $1 each on all the numbers. (Incidentally, the two examples given actually describe the respective positions of the player and proprietor of a wheel with 0 and 00.)*
+
+개별 주식은 확률은 같지만 손실이 없다는것을 보장하지않는다. 분산투자를 통해 안전마진을 만들수있다.
+
+A criterion of investment vs speculation
+
+Investment and speculation, there's no single definition. To have a true investment, there must be present a ture margin of safety.
+Speculers rest on subjective judgement. Margin of safety is well supported by practical investment experience. A true margin of safety is one that can be demonstrated by fitures, by persuasive reason, and by reference to a body of actual experience.
+

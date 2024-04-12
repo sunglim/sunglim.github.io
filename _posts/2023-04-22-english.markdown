@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "SAP stock analysis"
+date:  2023-04-22 19:23:56 +0900 
+categories: jekyll update
+---
+
+2022
+
+* net income: 2284
+
+* depreciation/amortization: 1130
+
+* capex: -874
+
+profit: 5954
+
+divided: 2865 .   abt 50% of profit
