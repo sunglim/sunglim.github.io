@@ -1,0 +1,26 @@
+---
+layout: post
+title:  "[BOOK REVIEW] Intelligent investor chapter 8. The investor and Market Fluctuations"
+date:  2024-04-14 16:40:38 +0800 
+categories: jekyll update
+---
+
+Chapter 8. The investor and Market Fluctuations
+
+To the extent that the investor’s funds are placed in high-grade bonds of relatively short maturity—say, of seven years or less—he will not be affected significantly by changes in market prices and need not take them into account. (This applies also to his holdings of U.S. savings bonds, which he can always turn in at his cost price or more.) His longer-term bonds may have relatively wide price swings during their lifetimes, and his common-stock portfolio is almost certain to fluctuate in value over any period of several years.
+
+높은 등급, 짧은 기간(7년)에 투자한경우 마켓 가격의 변동에 크게 영향을 받지 않으며 고려할 필요가 없다. (예금과 같은 항상 원가이상으로 돌려받을수있는 것도 포함) 장기채의 경우 상대적으로 변동성이 크며, 일반주식 포트폴리오는 몇년동안 거의 확실히 가치가 변동할 것이다.
+
+The investor should know about these possibilities and should be prepared for them both financially and psychologically. He will want to benefit from changes in market levels—certainly through an advance in the value of his stock holdings as time goes on, and perhaps also by making purchases and sales at advantageous prices. This interest on his part is inevitable, and legitimate enough. But it involves the very real danger that it will lead him into speculative attitudes and activities. It is easy for us to tell you not to speculate; the hard thing will be for you to follow this advice. Let us repeat what we said at the outset: If you want to speculate do so with your eyes open, knowing that you will probably lose money in the end; be sure to limit the amount at risk and to separate it completely from your investment program.
+
+투자자는 이 가능성에 대해 인지하여야 하며, 재정적, 심리적으로 준비되어야 한다. 마켓의 변화에서 이득을 취하기 원할것이다 - 시간이 지남에 따라 주식 보유액의 가치가 상승하고, 유리한 가격에 매수 및 매도를 통해서도.
+이러한 관심은 불가피하며, 정당한 것이다. 하지만, 매우 현실적인 위험을 포함하고 있는데, 그것은 투기에 대한 유혹과 활동을 이끌수있다. 투기하지말라 하는것은 쉽다; 당신이 이 조언을 따르는 것이 어렵다. 반복하자면, 투기를 원한다면 마침내 돈을 잃을것이라는것을 알아라. 그리고 위험한 금액을 제한하고 완전히 투자 프로그램과 분리해라.
+
+We shall deal first with the more important subject of price changes in common stocks, and pass later to the area of bonds. In Chapter 3 we supplied a historical survey of the stock market’s action over the past hundred years. In this section we shall return to that material from time to time, in order to see what the past record promises the investor—in either the form of long-term appreciation of a portfolio held relatively unchanged through successive rises and declines, or in the possibilities of buying near bear-market lows and selling not too far below bull-market highs.
+
+먼저 일반주에 대한 가격변동성에 대한 주제에 대해 말할것이다. 그 다음 채권에 대해 알아볼것이다. 3장에서 몇백년간의 시장에 대해 조사하였고, 이 장에서 이따금씩 그 자료를 볼것이다. 과거의 기록이 투자자들에게 무엇을 보장하는지 알기위해서. 연속적인 상승과 하락을 통해 상대적으로 변화되지 않은 포트폴리오의 장기적인 가치 상승의 형태로, 혹은 하락장에서 저점에서 매수하고, 상승장 고점에서 너무 멀지 않게 매도할 가능성으로.
+
+
+Market Fluctuations as a Guide to Investment Decisions
+
+Since common stocks, even of investment grade, are subject to recurrent and wide fluctuations in their prices, the intelligent investor should be interested in the possibilities of profiting from these pendulum swings. There are two possible ways by which he may try to do this: the way of timing and the way of pricing. By timing we mean the endeavor to anticipate the action of the stock market—to buy or hold when the future course is deemed to be upward, to sell or refrain from buying when the course is downward. By pricing we mean the endeavor to buy stocks when they are quoted below their fair value and to sell them when they rise above such value. A less ambitious form of pricing is the simple effort to make sure that when you buy you do not pay too much for your stocks. This may suffice for the defensive investor, whose

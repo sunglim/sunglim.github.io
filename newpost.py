@@ -2,7 +2,6 @@
 
 assert __name__ == '__main__'
 
-import imp
 import os
 import pipes
 import subprocess
