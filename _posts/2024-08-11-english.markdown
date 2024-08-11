@@ -1,0 +1,34 @@
+---
+layout: post
+title:  "Book review: A philosophy of software design Ch.16"
+date:  2024-08-11 16:08:46 +0700 
+categories: jekyll update
+tag:
+  - book
+  - software
+  - software design
+---
+
+# Ch.16 Modifying Existing Code
+
+A system design is constantly evolving. *The design of a mature system is determined more by changes made during the system's evoluation than by any initial conception.*
+
+Developer wants to make small changes. they worry that larger changes carry a greater risk of introducing new bugs. Each of these cases introduces a few special cases, depedenceis.
+
+16.1 Stay strategic
+
+You must resist the tempation to make a quick fix.
+
+# Ch.17 Consistency
+
+Consistency is a powerful tool for reducing the complexity of a system and making its behavior obvious. If a system is consistent, it means that similar things are done in similar ways.
+
+Consistency reduces mistakes.
+
+* Having a better idea is not a sufficient execute to introduce inconsistencies. *
+
+# Ch.18 Code Should be Obvious
+
+If code is obvious, it means that someone can read the code quickly, without much thoughts, and their first guesses about the behavior or meaning of the code will be correct. If code is obvious, a reader doesn't spend much time or effort to gather all the information they need to work with the code.
+
+The best way to determine the obviousness of code is through code reviews. If someone reading your code says it's not obvious, then it's not obvious, no matter how clear it may seem to you.
