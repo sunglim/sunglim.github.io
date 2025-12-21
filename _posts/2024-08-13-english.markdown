@@ -1,0 +1,33 @@
+---
+layout: post
+title:  "Book Review: Building Microservices"
+date:  2024-08-13 23:09:27 +0700 
+categories: jekyll update
+---
+
+Chapter 2. The Evolutionary Architect
+
+Inaccurate Comparisons
+
+We so frequently seem to get this role wrong.
+
+An Evolutionary Vision for the Architect
+
+we should think of our role more as town planners than architects for the built environment. A town planner's role is to look at a multitude of sources of information, and then attempt to optimize the layout of a city to best suite the needs of the citizens today, taking into account future use. The way he influences how the city evolves, though, is interesting. The city changes over times. It shifts and evolves as its occupants use it in different ways, or as external forces shape it.
+
+*Zoning*
+
+So, to continue the metaphor of the architect as town planner for a moment, what are our zones? These are our service boundaries, or perhaps coarse-grained group of services. As architects, we need to worry much less about what happens inside the zone that what happens between the zones. 
+
+*A Principled Approach*
+
+Making decisions in system design is all about trade-offs.
+
+Strategic Goals
+
+You need to make sure the technology is aligned to it.
+
+
+Chapter 3. How to Model Services
+
+MusicCorp

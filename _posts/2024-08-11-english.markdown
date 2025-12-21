@@ -32,3 +32,13 @@ Consistency reduces mistakes.
 If code is obvious, it means that someone can read the code quickly, without much thoughts, and their first guesses about the behavior or meaning of the code will be correct. If code is obvious, a reader doesn't spend much time or effort to gather all the information they need to work with the code.
 
 The best way to determine the obviousness of code is through code reviews. If someone reading your code says it's not obvious, then it's not obvious, no matter how clear it may seem to you.
+
+---
+layout: post
+title:  "Shell scripting"
+date:  2024-08-11 18:35:38 +0700 
+categories: jekyll update
+---
+
+bash -v: print every line
+bash -x: print every variables
